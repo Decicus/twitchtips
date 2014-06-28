@@ -5,11 +5,11 @@ description: "How to setup the Elgato Game Capture HD in OBS"
 tags: [OBS, Elgato, game capture hd, game,capture, hd]
 comments: true
 ---
-Welcome to this guide which will show you how to setup your [Elgato Game Capture HD](www.gamecapture.com) in [OBS](www.obsproject.com). Before we continue, please make sure you have each of these: 
+Welcome to this guide which will show you how to setup your [Elgato Game Capture HD](http://www.gamecapture.com) in [OBS](http://www.obsproject.com). Before we continue, please make sure you have each of these: 
 
-* Your [Elgato Game Capture HD](www.gamecapture.com) plugged in and setup with your console
-* The [Game Capture HD software/drivers](www.gamecapture.com) installed.
-* [OBS](www.obsproject.com) 32 bit installed. 
+* Your [Elgato Game Capture HD](http://www.gamecapture.com) plugged in and setup with your console
+* The [Game Capture HD software/drivers](http://www.gamecapture.com) installed.
+* [OBS](http://www.obsproject.com) 32 bit installed. 
 
 ###**Step 1: Open OBS 32Bit, and go to the settings.**
 
@@ -29,7 +29,7 @@ Welcome to this guide which will show you how to setup your [Elgato Game Capture
 
 * Leave the encoder on "X264". 
 * Leave both CBR and VBR checked. These are Twitch requirements.
-* Run a [speedtest](www.speedtest.net) to find out your approximate upload speed. Now you have some options. Depending on your upload speed, you can do a few things. 
+* Run a [speedtest](http://www.speedtest.net) to find out your approximate upload speed. Now you have some options. Depending on your upload speed, you can do a few things. 
 
 If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that. Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.
  
@@ -44,7 +44,7 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 * For mode, choose "Live stream"
 * Streaming service is of course Twitch/Justin.tv(don't worry, you will only stream to Twitch)
 * Server should be the closest one to you. If you are not sure, we recommend you use [JTVPing](http://www.teamliquid.net/forum/tech-support/326034-jtvping-find-your-best-twitchtv-server) to find the closest one to you. 
-* Your Pathkey/Stream key can be found by going to [Twitch](www.twitch.tv) then your dashboard, and then the "Stream key" tab. Hit "show", and copy and paste the full stream key, including any letters, into OBS. **(Note**: Never show your stream key publicly or give it to anyone you don't trust.**)**
+* Your Pathkey/Stream key can be found by going to [Twitch](http://www.twitch.tv) then your dashboard, and then the "Stream key" tab. Hit "show", and copy and paste the full stream key, including any letters, into OBS. **(Note**: Never show your stream key publicly or give it to anyone you don't trust.**)**
 * Keep "Auto reconnect" checked. This is useful when there is a sudden disconnect or network error, OBS will automatically try to start up the stream again. 
 * You should not need to touch "Minimize network impact". If you do have network issues, ask on the [OBS forums](https://obsproject.com/forum/list/questions-and-help.5/) first. 
 * Save to file is a very useful option. What this does is it will save an EXACT copy of your stream to a folder of your choosing. This can be useful for cutting out stream highlights for YouTube later. If you decide to use this feature, the naming of the files is a little weird. If you name the file **%**, then the name of the saved file will be date_time.mp4. If you name the file ""Stream recording", the first time you stream, it will be "Stream recording", and the next time it will be "Stream recording1". Hopefully in [OBS Studio (OBS 2.0)](https://obsproject.com/forum/threads/obs-redux.7736/) there will be a more graceful solution. 
@@ -222,4 +222,4 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 
 ---
 
-This guide was written by Phil, Community Coordinator at Elgato Gaming. If you require support for your Elgato Game Capture HD please contact [@ElgatoSupport](www.twitter.com/ElgatoSupport) or open a ticket via the [Elgato Help Desk](http://help.elgato.com/customer/portal/emails/new).
+This guide was written by Phil, Community Coordinator at Elgato Gaming. If you require support for your Elgato Game Capture HD please contact [@ElgatoSupport](http://www.twitter.com/ElgatoSupport) or open a ticket via the [Elgato Help Desk](http://help.elgato.com/customer/portal/emails/new).
