@@ -6,9 +6,7 @@ tags: [OBS, Elgato, game capture hd, game,capture, hd]
 comments: true
 draft: true
 ---
-Welcome to this guide which will show you how to setup your [Elgato Game Capture HD](www.gamecapture.com) in [OBS](www.obsproject.com).  
-
-Before we continue, please make sure you have each of these: 
+Welcome to this guide which will show you how to setup your [Elgato Game Capture HD](www.gamecapture.com) in [OBS](www.obsproject.com). Before we continue, please make sure you have each of these: 
 
 * Your [Elgato Game Capture HD](www.gamecapture.com) plugged in and setup with your console
 * The [Game Capture HD software/drivers](www.gamecapture.com) installed.
@@ -23,6 +21,7 @@ Before we continue, please make sure you have each of these:
 </figure>
 
 ---
+
 ###**Step 2: General**
 
 * Make a new profile. For the purpose of this tutorial, we'll call it "Game Capture HD", then click "add"  
@@ -32,15 +31,14 @@ Before we continue, please make sure you have each of these:
 </figure>
 
 ---
+
 ###**Step 3: Encoding**
 
 * Leave the encoder on "X264". 
 * Leave both CBR and VBR checked. These are Twitch requirement.
 * Run a [speedtest](www.speedtest.net) to find out your approximate upload speed. Now you have some options. Depending on your upload speed, you can do a few things. 
 
-If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that.  
-
-<br>Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.
+If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that. Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.
  
 * For audio encoding, select AAC, set the format to 48kHz and select a bit rate. Remember, audio bit rate will **ADD to the total bit rate** being streamed to Twitch and your viewers. A good balance between quality and bit rate is 96. As for Mono or Stereo, the option is up to you, but we recommend stereo.  
 
@@ -49,6 +47,7 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 </figure>
 
 ---
+
 ###**Step 4: Broadcast settings**
 
 * For mode, choose "Live stream"
@@ -66,6 +65,7 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 </figure>
 
 ---
+
 ###**Step 5: Video**
 
 * Do not touch "Video Adapter". This will be set to your graphics card.
@@ -79,6 +79,7 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 </figure>
 
 ---
+
 ###**Step 6: Audio**
 
 * Desktop audio device will be whatever your computer audio is playing through. In most cases, this will be your headphones. 
@@ -92,6 +93,7 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 </figure>
 
 ---
+
 ###**Step 7: Advanced**
 
 * Multithreaded optimizations: Keep this checked
@@ -140,6 +142,7 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/7.png"><img src="/images/elgato_hd/7.png"></a>
 </figure>
 ---
+
 ###**Step 10: Name your scene**
 
 * For the purpose of this tutorial, we will name the scene "Elgato Game Capture HD". 
@@ -149,6 +152,7 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 </figure>
 
 ---
+
 ###**Step 11: Global Sources**
 
 * Now lets add your Game Capture HD as a source. 
@@ -159,6 +163,7 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 </figure>
 
 ---
+
 ###**Step 12: Add a video device**
 
 * Click on "Add" 
@@ -177,6 +182,7 @@ Step 13: Name the Video capture device
 </figure>
 
 ---
+
 ###**Step 14: Select the device**
 
 * By default, the Game Capture HD should be selected. If not, go to the drop down menu at the top, and select the Elgato Game Capture HD. 
