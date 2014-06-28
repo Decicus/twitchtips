@@ -183,7 +183,7 @@
 </div>
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Welcome to this guide which will show you how to setup your <a href="www.gamecapture.com">Elgato Game Capture HD</a> in <a href="www.obsproject.com">OBS</a>. </p>
+      <p>Welcome to this guide which will show you how to setup your <a href="www.gamecapture.com">Elgato Game Capture HD</a> in <a href="www.obsproject.com">OBS</a>.  </p>
 
 <p>Before we continue, please make sure you have each of these: </p>
 
@@ -195,14 +195,14 @@
 
 <hr />
 
-<p><strong>Step 1: Open OBS 32Bit, and go to the settings.</strong></p>
+<h3 id="step-1-open-obs-32bit-and-go-to-the-settings"><strong>Step 1: Open OBS 32Bit, and go to the settings.</strong></h3>
 
 <figure>
  <a href="/images/elgato_hd/1.png"><img src="/images/elgato_hd/1.png" /></a>
 </figure>
 
 <hr />
-<p><strong>Step 2: General</strong></p>
+<p>###<strong>Step 2: General</strong></p>
 
 <ul>
   <li>Make a new profile. For the purpose of this tutorial, we’ll call it “Game Capture HD”, then click “add”  </li>
@@ -213,7 +213,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 3: Encoding</strong></p>
+<p>###<strong>Step 3: Encoding</strong></p>
 
 <ul>
   <li>Leave the encoder on “X264”. </li>
@@ -223,7 +223,7 @@
 
 <p>If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that.  </p>
 
-<p>Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.</p>
+<p><br />Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.</p>
 
 <ul>
   <li>For audio encoding, select AAC, set the format to 48kHz and select a bit rate. Remember, audio bit rate will <strong>ADD to the total bit rate</strong> being streamed to Twitch and your viewers. A good balance between quality and bit rate is 96. As for Mono or Stereo, the option is up to you, but we recommend stereo.  </li>
@@ -234,7 +234,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 4: Broadcast settings</strong></p>
+<p>###<strong>Step 4: Broadcast settings</strong></p>
 
 <ul>
   <li>For mode, choose “Live stream”</li>
@@ -253,7 +253,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 5: Video</strong></p>
+<p>###<strong>Step 5: Video</strong></p>
 
 <ul>
   <li>Do not touch “Video Adapter”. This will be set to your graphics card.</li>
@@ -268,7 +268,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 6: Audio</strong></p>
+<p>###<strong>Step 6: Audio</strong></p>
 
 <ul>
   <li>Desktop audio device will be whatever your computer audio is playing through. In most cases, this will be your headphones. </li>
@@ -283,7 +283,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 7: Advanced</strong></p>
+<p>###<strong>Step 7: Advanced</strong></p>
 
 <ul>
   <li>Multithreaded optimizations: Keep this checked</li>
@@ -324,7 +324,7 @@
 
 <hr />
 
-<p><strong>Step 8: Noise gate</strong></p>
+<h3 id="step-8-noise-gate"><strong>Step 8: Noise gate</strong></h3>
 
 <ul>
   <li>This is something you can play around with on your own, but simply, it will mute your microphone when you are not talking. This may be useful for people with a lot of background noise. </li>
@@ -332,7 +332,7 @@
 
 <hr />
 
-<p><strong>Step 9: Adding a scene</strong></p>
+<h3 id="step-9-adding-a-scene"><strong>Step 9: Adding a scene</strong></h3>
 
 <ul>
   <li>Now that you have configured your settings, we can start setting up the Elgato Game Capture HD in OBS. </li>
@@ -343,7 +343,7 @@
  <a href="/images/elgato_hd/7.png"><img src="/images/elgato_hd/7.png" /></a>
 </figure>
 <hr />
-<p><strong>Step 10: Name your scene</strong></p>
+<p>###<strong>Step 10: Name your scene</strong></p>
 
 <ul>
   <li>For the purpose of this tutorial, we will name the scene “Elgato Game Capture HD”. </li>
@@ -354,7 +354,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 11: Global Sources</strong></p>
+<p>###<strong>Step 11: Global Sources</strong></p>
 
 <ul>
   <li>Now lets add your Game Capture HD as a source. </li>
@@ -366,7 +366,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 12: Add a video device</strong></p>
+<p>###<strong>Step 12: Add a video device</strong></p>
 
 <ul>
   <li>Click on “Add” </li>
@@ -388,7 +388,7 @@
 </figure>
 
 <hr />
-<p><strong>Step 14: Select the device</strong></p>
+<p>###<strong>Step 14: Select the device</strong></p>
 
 <ul>
   <li>By default, the Game Capture HD should be selected. If not, go to the drop down menu at the top, and select the Elgato Game Capture HD. </li>
@@ -404,7 +404,7 @@
 
 <hr />
 
-<p><strong>Step 15: Add the Game Capture HD in the scene</strong></p>
+<h3 id="step-15-add-the-game-capture-hd-in-the-scene"><strong>Step 15: Add the Game Capture HD in the scene</strong></h3>
 
 <ul>
   <li>Right click in the box to the right of the scenes box. </li>
@@ -418,7 +418,7 @@
 
 <hr />
 
-<p><strong>Step 16:</strong> </p>
+<h3 id="step-16"><strong>Step 16:</strong></h3>
 
 <ul>
   <li>You should see the Elgato Game Capture HD. </li>
@@ -439,7 +439,7 @@
 
 <hr />
 
-<p><strong>Step 17: TEST</strong></p>
+<h3 id="step-17-test"><strong>Step 17: TEST</strong></h3>
 
 <ul>
   <li>Congratulations, everything should be setup and working now. </li>
@@ -459,7 +459,7 @@
 
 <hr />
 
-<p><strong>Step 18: Moar testing!</strong></p>
+<h3 id="step-18-moar-testing"><strong>Step 18: Moar testing!</strong></h3>
 
 <ul>
   <li>Keep the preview open and running, and play a couple minutes. Keep an eye on OBS. If it shows warnings like “Taking to long to encode”, you have to lower the X264 preset. </li>
@@ -469,7 +469,7 @@
 
 <hr />
 
-<p><strong>Step 19: Stream</strong></p>
+<h3 id="step-19-stream"><strong>Step 19: Stream</strong></h3>
 
 <ul>
   <li>Once you have setup the scenes and sources, stop the preview, and click on stream. </li>
