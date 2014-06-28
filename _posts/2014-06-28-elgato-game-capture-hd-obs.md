@@ -173,7 +173,9 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/10.png"><img src="/images/elgato_hd/10.png"></a>
 </figure>
 
-Step 13: Name the Video capture device
+---
+
+###**Step 13: Name the Video capture device**
 
 * For easy remembering, name the source "Elgato Game Capture HD"
 
