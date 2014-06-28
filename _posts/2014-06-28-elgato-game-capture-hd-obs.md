@@ -12,15 +12,11 @@ Welcome to this guide which will show you how to setup your [Elgato Game Capture
 * The [Game Capture HD software/drivers](www.gamecapture.com) installed.
 * [OBS](www.obsproject.com) 32 bit installed. 
 
----
-
 ###**Step 1: Open OBS 32Bit, and go to the settings.**
 
 <figure>
  <a href="/images/elgato_hd/1.png"><img src="/images/elgato_hd/1.png"></a>
 </figure>
-
----
 
 ###**Step 2: General**
 
@@ -29,8 +25,6 @@ Welcome to this guide which will show you how to setup your [Elgato Game Capture
 <figure>
  <a href="/images/elgato_hd/2.png"><img src="/images/elgato_hd/2.png"></a>
 </figure>
-
----
 
 ###**Step 3: Encoding**
 
@@ -45,8 +39,6 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 <figure>
  <a href="/images/elgato_hd/3.png"><img src="/images/elgato_hd/3.png"></a>
 </figure>
-
----
 
 ###**Step 4: Broadcast settings**
 
@@ -64,8 +56,6 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
  <a href="/images/elgato_hd/4.png"><img src="/images/elgato_hd/4.png"></a>
 </figure>
 
----
-
 ###**Step 5: Video**
 
 * Do not touch "Video Adapter". This will be set to your graphics card.
@@ -78,8 +68,6 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
  <a href="/images/elgato_hd/5.png"><img src="/images/elgato_hd/5.png"></a>
 </figure>
 
----
-
 ###**Step 6: Audio**
 
 * Desktop audio device will be whatever your computer audio is playing through. In most cases, this will be your headphones. 
@@ -91,8 +79,6 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 <figure>
  <a href="/images/elgato_hd/6.png"><img src="/images/elgato_hd/6.png"></a>
 </figure>
-
----
 
 ###**Step 7: Advanced**
 
@@ -125,13 +111,9 @@ If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch wi
 
 Do **NOT** touch any of the other settings unless you have extensive knowledge of X264, OBS and video encoding, or if you are having issues and have been instructed so on the OBS forums.  
 
----
-
 ###**Step 8: Noise gate**
 
 * This is something you can play around with on your own, but simply, it will mute your microphone when you are not talking. This may be useful for people with a lot of background noise. 
-
----
 
 ###**Step 9: Adding a scene**
 
@@ -141,7 +123,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 <figure>
  <a href="/images/elgato_hd/7.png"><img src="/images/elgato_hd/7.png"></a>
 </figure>
----
 
 ###**Step 10: Name your scene**
 
@@ -150,8 +131,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 <figure>
  <a href="/images/elgato_hd/8.png"><img src="/images/elgato_hd/8.png"></a>
 </figure>
-
----
 
 ###**Step 11: Global Sources**
 
@@ -162,8 +141,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/9.png"><img src="/images/elgato_hd/9.png"></a>
 </figure>
 
----
-
 ###**Step 12: Add a video device**
 
 * Click on "Add" 
@@ -173,8 +150,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/10.png"><img src="/images/elgato_hd/10.png"></a>
 </figure>
 
----
-
 ###**Step 13: Name the Video capture device**
 
 * For easy remembering, name the source "Elgato Game Capture HD"
@@ -182,8 +157,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 <figure>
  <a href="/images/elgato_hd/11.png"><img src="/images/elgato_hd/11.png"></a>
 </figure>
-
----
 
 ###**Step 14: Select the device**
 
@@ -197,8 +170,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/12.png"><img src="/images/elgato_hd/12.png"></a>
 </figure>
 
----
-
 ###**Step 15: Add the Game Capture HD in the scene**
 
 * Right click in the box to the right of the scenes box. 
@@ -208,8 +179,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 <figure>
  <a href="/images/elgato_hd/13.png"><img src="/images/elgato_hd/13.png"></a>
 </figure>
-
----
 
 ###**Step 16:** 
 
@@ -227,8 +196,6 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
  <a href="/images/elgato_hd/15.png"><img src="/images/elgato_hd/15.png"></a>
 </figure>
 
----
-
 ###**Step 17: TEST**
 
 * Congratulations, everything should be setup and working now. 
@@ -243,17 +210,11 @@ Do **NOT** touch any of the other settings unless you have extensive knowledge o
 * If you do not see your game, you may need to select a different input. To do this, right click on the Game Capture HD source, click on properties. Once you have the device window open, click on "Configure" (**NOTE**: To configure the Game Capture HD device, the preview must be on).
 * The Game Capture HD device option panel should come up, allowing you to change settings like resolution(Which feeds to OBS) and input.  
 
-
----
-
 ###**Step 18: Moar testing!**
 
 * Keep the preview open and running, and play a couple minutes. Keep an eye on OBS. If it shows warnings like "Taking to long to encode", you have to lower the X264 preset. 
 * If other errors come up, don't be afraid to ask on the [OBS forums](https://obsproject.com/forum/)
 * This is also the time to test your mic volume, add a webcam, add overlays and more.  
-
-
----
 
 ###**Step 19: Stream**
 
