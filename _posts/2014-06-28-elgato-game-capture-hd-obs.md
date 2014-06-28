@@ -28,7 +28,7 @@ Welcome to this guide which will show you how to setup your [Elgato Game Capture
 ###**Step 3: Encoding**
 
 * Leave the encoder on "X264". 
-* Leave both CBR and VBR checked. These are Twitch requirement.
+* Leave both CBR and VBR checked. These are Twitch requirements.
 * Run a [speedtest](www.speedtest.net) to find out your approximate upload speed. Now you have some options. Depending on your upload speed, you can do a few things. 
 
 If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that. Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.
