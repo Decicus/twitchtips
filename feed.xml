@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-06-28T20:40:10+01:00</updated>
+<updated>2014-06-28T23:45:33+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -13,6 +13,288 @@
 </author>
 
   
+  <entry>
+    <title type="html"><![CDATA[How to setup the Elgato Game Capture HD in OBS]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/elgato-game-capture-hd-obs/" />
+    <id>http://twitchtips.com/elgato-game-capture-hd-obs</id>
+    <published>2014-06-28T00:00:00+01:00</published>
+    <updated>2014-06-28T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;Welcome to this guide which will show you how to setup your &lt;a href=&quot;www.gamecapture.com&quot;&gt;Elgato Game Capture HD&lt;/a&gt; in &lt;a href=&quot;www.obsproject.com&quot;&gt;OBS&lt;/a&gt;. Before we continue, please make sure you have each of these: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your &lt;a href=&quot;www.gamecapture.com&quot;&gt;Elgato Game Capture HD&lt;/a&gt; plugged in and setup with your console&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;www.gamecapture.com&quot;&gt;Game Capture HD software/drivers&lt;/a&gt; installed.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;www.obsproject.com&quot;&gt;OBS&lt;/a&gt; 32 bit installed. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-1-open-obs-32bit-and-go-to-the-settings&quot;&gt;&lt;strong&gt;Step 1: Open OBS 32Bit, and go to the settings.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/1.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/1.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-2-general&quot;&gt;&lt;strong&gt;Step 2: General&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make a new profile. For the purpose of this tutorial, we’ll call it “Game Capture HD”, then click “add”  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/2.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/2.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-3-encoding&quot;&gt;&lt;strong&gt;Step 3: Encoding&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leave the encoder on “X264”. &lt;/li&gt;
+  &lt;li&gt;Leave both CBR and VBR checked. These are Twitch requirement.&lt;/li&gt;
+  &lt;li&gt;Run a &lt;a href=&quot;www.speedtest.net&quot;&gt;speedtest&lt;/a&gt; to find out your approximate upload speed. Now you have some options. Depending on your upload speed, you can do a few things. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If 75% of your upload speed equates to 3400kbps, (which is the maximum Twitch will take), then you can set your upload speed to that. Be warned however that many people cannot watch a stream with that high bit rate. For new streamers, a good balance between quality and watchability is 2000kbps. You will also need to take into consideration your own internet upload speed. If your maximum is 2mbps(2000kbps) then you may want to set your upload to 1500kbps.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For audio encoding, select AAC, set the format to 48kHz and select a bit rate. Remember, audio bit rate will &lt;strong&gt;ADD to the total bit rate&lt;/strong&gt; being streamed to Twitch and your viewers. A good balance between quality and bit rate is 96. As for Mono or Stereo, the option is up to you, but we recommend stereo.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/3.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/3.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-4-broadcast-settings&quot;&gt;&lt;strong&gt;Step 4: Broadcast settings&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For mode, choose “Live stream”&lt;/li&gt;
+  &lt;li&gt;Streaming service is of course Twitch/Justin.tv(don’t worry, you will only stream to Twitch)&lt;/li&gt;
+  &lt;li&gt;Server should be the closest one to you. If you are not sure, we recommend you use &lt;a href=&quot;http://www.teamliquid.net/forum/tech-support/326034-jtvping-find-your-best-twitchtv-server&quot;&gt;JTVPing&lt;/a&gt; to find the closest one to you. &lt;/li&gt;
+  &lt;li&gt;Your Pathkey/Stream key can be found by going to &lt;a href=&quot;www.twitch.tv&quot;&gt;Twitch&lt;/a&gt; then your dashboard, and then the “Stream key” tab. Hit “show”, and copy and paste the full stream key, including any letters, into OBS. &lt;strong&gt;(Note&lt;/strong&gt;: Never show your stream key publicly or give it to anyone you don’t trust.&lt;strong&gt;)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Keep “Auto reconnect” checked. This is useful when there is a sudden disconnect or network error, OBS will automatically try to start up the stream again. &lt;/li&gt;
+  &lt;li&gt;You should not need to touch “Minimize network impact”. If you do have network issues, ask on the &lt;a href=&quot;https://obsproject.com/forum/list/questions-and-help.5/&quot;&gt;OBS forums&lt;/a&gt; first. &lt;/li&gt;
+  &lt;li&gt;Save to file is a very useful option. What this does is it will save an EXACT copy of your stream to a folder of your choosing. This can be useful for cutting out stream highlights for YouTube later. If you decide to use this feature, the naming of the files is a little weird. If you name the file &lt;strong&gt;%&lt;/strong&gt;, then the name of the saved file will be date_time.mp4. If you name the file ““Stream recording”, the first time you stream, it will be “Stream recording”, and the next time it will be “Stream recording1”. Hopefully in &lt;a href=&quot;https://obsproject.com/forum/threads/obs-redux.7736/&quot;&gt;OBS Studio (OBS 2.0)&lt;/a&gt; there will be a more graceful solution. &lt;/li&gt;
+  &lt;li&gt;Hotkeys, who doesn’t like hotkeys. If you choose to use hotkeys, make sure they are not close to any keys you use often. You don’t want to accidentally start and/or stop your stream. &lt;/li&gt;
+  &lt;li&gt;Ignore any warnings OBS is giving you, we will fix them.   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/4.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/4.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-5-video&quot;&gt;&lt;strong&gt;Step 5: Video&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do not touch “Video Adapter”. This will be set to your graphics card.&lt;/li&gt;
+  &lt;li&gt;Base resolution should be set to “Custom” and 1080p. &lt;/li&gt;
+  &lt;li&gt;To get a nice looking stream, and reduce OBS’s CPU usage, downscaling the stream by 1.50x to 1280x720p is recommended. &lt;/li&gt;
+  &lt;li&gt;Set the filter to “Lanczos”. &lt;/li&gt;
+  &lt;li&gt;Set the FPS to 30, this is a limitation from the Game Capture HD. If the Game Capture HD receives 1080p video from the console, the maximum recording/streaming FPS is 30. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/5.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/5.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-6-audio&quot;&gt;&lt;strong&gt;Step 6: Audio&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Desktop audio device will be whatever your computer audio is playing through. In most cases, this will be your headphones. &lt;/li&gt;
+  &lt;li&gt;Microphone is pretty self explanatory. Keep it on default to use your default computer mic for OBS. If you have a headset mic and a USB mic like a Blue Yeti connected, you may need to manually select the Blue Yeti. &lt;/li&gt;
+  &lt;li&gt;“Show only connected devices” should be checked. This makes sure you don’t select anything that isn’t actually there, which can cause problems. &lt;/li&gt;
+  &lt;li&gt;If you want to use Push-to-talk, that is up to you. &lt;/li&gt;
+  &lt;li&gt;We now need to change “Mic time offset”. There is about a 1.4-1.5 second delay from what happens on your TV/Monitor to when the Game Capture HD shows it on your computer. For this reason, we need to delay the mic by the same amount of time so that the video and audio is synced. A good offset time to start at is 1500ms. You might need to change this to 1450ms or 1550ms or even higher or lower depending on your experience. There is currently a bug in OBS where the delay from the Game Capture HD increases over time. This may not be resolved in this version of OBS. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/6.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/6.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-7-advanced&quot;&gt;&lt;strong&gt;Step 7: Advanced&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Multithreaded optimizations: Keep this checked&lt;/li&gt;
+  &lt;li&gt;Process priority class: Do not change unless issues arise, in which case you should ask on the &lt;a href=&quot;https://obsproject.com/forum/&quot;&gt;OBS forums&lt;/a&gt; first. &lt;/li&gt;
+  &lt;li&gt;Leave all other settings in the &lt;strong&gt;General&lt;/strong&gt; box as they are&lt;/li&gt;
+  &lt;li&gt;X264 preset: Next to bit rate and resolution, changing this settings can effect the quality of your stream a lot, as well as much CPU OBS uses. The slower the preset, the better the video quality, but the more CPU OBS will use. This list can help you determine which preset you can use:  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Intel:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dual core Intel i3 23XX or higher: ultrafast/superfast&lt;/li&gt;
+  &lt;li&gt;Quad core Intel i5 25XX or higher: Veryfast/Faster&lt;/li&gt;
+  &lt;li&gt;8-core Intel i7 26XX or higher: Fast/Medium&lt;/li&gt;
+  &lt;li&gt;12-core Intel i7 3930k or higher: slow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;AMD:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Due to the low speed/IPC(Instructions per clock) of AMD CPU’s, it is generally not recommended to stream with a dual core or lower.&lt;/em&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AMD FX series: &lt;/li&gt;
+  &lt;li&gt;AMD FX 4100 or higher: Ultrafast/Veryfast&lt;/li&gt;
+  &lt;li&gt;AMD FX 6100 or higher: Veryfast/Faster&lt;/li&gt;
+  &lt;li&gt;AMD FX 8320 or higher: Fast/Medium&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Any X264 preset beyond slow will provide for very little image quality gain and exponential CPU usage increase. We do not recommend going above Medium unless you have a monster CPU or extreme over clock.  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Encoding profile: Set this to main. If you set it to high there will be a marginal video quality increase, but some phones/tablets may not be able to view your stream. &lt;/li&gt;
+  &lt;li&gt;Keyframe: Set to 2. This is a Twitch requirement.&lt;/li&gt;
+  &lt;li&gt;Use CFR: Keep this checked.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do &lt;strong&gt;NOT&lt;/strong&gt; touch any of the other settings unless you have extensive knowledge of X264, OBS and video encoding, or if you are having issues and have been instructed so on the OBS forums.  &lt;/p&gt;
+
+&lt;h3 id=&quot;step-8-noise-gate&quot;&gt;&lt;strong&gt;Step 8: Noise gate&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is something you can play around with on your own, but simply, it will mute your microphone when you are not talking. This may be useful for people with a lot of background noise. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-9-adding-a-scene&quot;&gt;&lt;strong&gt;Step 9: Adding a scene&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now that you have configured your settings, we can start setting up the Elgato Game Capture HD in OBS. &lt;/li&gt;
+  &lt;li&gt;In the left hand box at the bottom, right click to “Add scene”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/7.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/7.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-10-name-your-scene&quot;&gt;&lt;strong&gt;Step 10: Name your scene&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the purpose of this tutorial, we will name the scene “Elgato Game Capture HD”. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/8.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/8.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-11-global-sources&quot;&gt;&lt;strong&gt;Step 11: Global Sources&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now lets add your Game Capture HD as a source. &lt;/li&gt;
+  &lt;li&gt;Click on “Global Sources”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/9.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/9.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-12-add-a-video-device&quot;&gt;&lt;strong&gt;Step 12: Add a video device&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click on “Add” &lt;/li&gt;
+  &lt;li&gt;Click on “Video capture device”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/10.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/10.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-13-name-the-video-capture-device&quot;&gt;&lt;strong&gt;Step 13: Name the Video capture device&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For easy remembering, name the source “Elgato Game Capture HD”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/11.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/11.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-14-select-the-device&quot;&gt;&lt;strong&gt;Step 14: Select the device&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By default, the Game Capture HD should be selected. If not, go to the drop down menu at the top, and select the Elgato Game Capture HD. &lt;/li&gt;
+  &lt;li&gt;Under Audio, in the drop down menu, choose “Use device audio”&lt;/li&gt;
+  &lt;li&gt;Under Audio, set the device to “Output to stream only”&lt;/li&gt;
+  &lt;li&gt;Under video, check the box that says “Use buffering” and set the time to 0. &lt;/li&gt;
+  &lt;li&gt;Now click ok, and the window should close. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/12.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/12.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-15-add-the-game-capture-hd-in-the-scene&quot;&gt;&lt;strong&gt;Step 15: Add the Game Capture HD in the scene&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Right click in the box to the right of the scenes box. &lt;/li&gt;
+  &lt;li&gt;Click “Add”&lt;/li&gt;
+  &lt;li&gt;A menu will come up. Go to “Global sources”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/13.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/13.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-16&quot;&gt;&lt;strong&gt;Step 16:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You should see the Elgato Game Capture HD. &lt;/li&gt;
+  &lt;li&gt;Click on it, and it will prompt you for a name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/14.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/14.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Notice the name is already Elgato Game Capture HD. Just click ok&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/15.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/15.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-17-test&quot;&gt;&lt;strong&gt;Step 17: TEST&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Congratulations, everything should be setup and working now. &lt;/li&gt;
+  &lt;li&gt;Click on the “Preview button”. &lt;/li&gt;
+  &lt;li&gt;The OBS preview window will come up, and you should see this: &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+ &lt;a href=&quot;/images/elgato_hd/16.png&quot;&gt;&lt;img src=&quot;/images/elgato_hd/16.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After a few seconds, you should see your game on screen. You TV may flicker at this time as well. &lt;/li&gt;
+  &lt;li&gt;If you do not see your game, you may need to select a different input. To do this, right click on the Game Capture HD source, click on properties. Once you have the device window open, click on “Configure” (&lt;strong&gt;NOTE&lt;/strong&gt;: To configure the Game Capture HD device, the preview must be on).&lt;/li&gt;
+  &lt;li&gt;The Game Capture HD device option panel should come up, allowing you to change settings like resolution(Which feeds to OBS) and input.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-18-moar-testing&quot;&gt;&lt;strong&gt;Step 18: Moar testing!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Keep the preview open and running, and play a couple minutes. Keep an eye on OBS. If it shows warnings like “Taking to long to encode”, you have to lower the X264 preset. &lt;/li&gt;
+  &lt;li&gt;If other errors come up, don’t be afraid to ask on the &lt;a href=&quot;https://obsproject.com/forum/&quot;&gt;OBS forums&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is also the time to test your mic volume, add a webcam, add overlays and more.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-19-stream&quot;&gt;&lt;strong&gt;Step 19: Stream&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Once you have setup the scenes and sources, stop the preview, and click on stream. &lt;/li&gt;
+  &lt;li&gt;You are now live on Twitch! happy streaming.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This guide was written by Phil, Community Coordinator at Elgato Gaming. If you require support for your Elgato Game Capture HD please contact &lt;a href=&quot;www.twitter.com/ElgatoSupport&quot;&gt;@ElgatoSupport&lt;/a&gt; or open a ticket via the &lt;a href=&quot;http://help.elgato.com/customer/portal/emails/new&quot;&gt;Elgato Help Desk&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/elgato-game-capture-hd-obs/&quot;&gt;How to setup the Elgato Game Capture HD in OBS&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 28, 2014.&lt;/p&gt;</content>
+  </entry>
+
 
   
   <entry>
