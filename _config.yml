@@ -21,7 +21,7 @@ url:              http://twitchtips.com
 disqus_shortname: twitchtips
 
 # Permalink of giveaway page
-giveaway: giveaway-two
+# giveaway: giveaway-two
 
 source: ./
 destination: ./_site

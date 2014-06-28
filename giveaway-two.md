@@ -11,16 +11,16 @@ comments: true
 
 <br>(**Note:** If you're not following us on Twitter and you've won, we'll send you a tweet letting you know you've won, you then have 24 hours to follow us back so we can DM you the redeem link for your Kappa Emote Pack - after 24 hours we will randomly select another winner)
 
-<br>So without further due, here are the 5 winners for TwitchTips first giveaway!
+<br>So without further due, here are the 8 winners for TwitchTips second giveaway!
 
 <br>**Written Contributions**
 
 * NoxiusInfernus
 * GUIpsp
 
-Unfortunately we didn't receive enough written contributions to give away 4 Kappa Emote Packs, so we remain with 3 to give away at a future date!  
+Unfortunately we didn't receive enough written contributions to give away 4 Kappa Emote Packs, so we remain with 2 to give away at a future date!  
 
-**Twitter Winners**
+<br>**Twitter Winners**
 
 * [@TheAllGaming1](https://twitter.com/TheAllGaming1)
 * [@PSRawanz](http://twitter.com/PSRawanz)
