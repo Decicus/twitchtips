@@ -4,7 +4,6 @@ title: How to setup the Elgato Game Capture HD in OBS
 description: "How to setup the Elgato Game Capture HD in OBS"
 tags: [OBS, Elgato, game capture hd, game,capture, hd]
 comments: true
-draft: true
 ---
 Welcome to this guide which will show you how to setup your [Elgato Game Capture HD](www.gamecapture.com) in [OBS](www.obsproject.com). Before we continue, please make sure you have each of these: 
 
