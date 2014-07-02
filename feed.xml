@@ -4,13 +4,49 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-06-29T13:24:43+01:00</updated>
+<updated>2014-07-02T13:06:49+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
   <uri>http://twitchtips.com/</uri>
   <email>contact@twitchtips.com</email>
 </author>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Self Rearranging Panel Fix]]></title>
+    <link rel="alternate" type="text/html" href="http://twitchtips.com/panel-quickfix/" />
+    <id>http://twitchtips.com/panel-quickfix</id>
+    <published>2014-07-02T00:00:00+01:00</published>
+    <updated>2014-07-02T00:00:00+01:00</updated>
+    <author>
+      <name>Twitch Tips</name>
+      <uri>http://twitchtips.com</uri>
+      <email>contact@twitchtips.com</email>
+    </author>
+    <content type="html">&lt;p&gt;There is a bug that can happen if you have over 4 panels in your information area below your stream. The bug occurs if you edit the area and then save, when you refresh the page you might see that your panels have rearranged and are not the way you laid them out.  &lt;/p&gt;
+
+&lt;p&gt;Until this is fixed on the back-end of Twitch, here is how to fix it on your own:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Toggle editing on.&lt;/li&gt;
+  &lt;li&gt;Delete every cell (copy paste the cell bodies to a word document in the top/down left/right order of how you want them to appear in your info area.     &lt;/li&gt;
+  &lt;li&gt;Refresh the page to ensure a clean slate.     &lt;/li&gt;
+  &lt;li&gt;Toggle editing on again.     &lt;/li&gt;
+  &lt;li&gt;Add each cell with title, image and link and save before adding the next cell.     &lt;/li&gt;
+  &lt;li&gt;Toggle editing off.     &lt;/li&gt;
+  &lt;li&gt;Refresh to ensure no errors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a quick fix to the self re-arranging panels, please let us know in the comments if this does or doesn’t work for you.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This quick fix was written by &lt;a href=&quot;http://www.twitter.com/shannonzkiller&quot;&gt;@ShannonZKiller&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/panel-quickfix/&quot;&gt;Self Rearranging Panel Fix&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on July 02, 2014.&lt;/p&gt;</content>
+  </entry>
+
 
   
   <entry>

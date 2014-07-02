@@ -7,28 +7,10 @@
     
         
         <url>
-            <loc>http://twitchtips.com/sitemap.xml</loc>
+            <loc>http://twitchtips.com/ban-checker/</loc>
         </url>
         
     
-        
-        <url>
-            <loc>http://twitchtips.com/get-started/</loc>
-        </url>
-        
-    
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/giveaway-two/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/index.html</loc>
-        </url>
         
     
         
@@ -39,22 +21,22 @@
     
         
         <url>
-            <loc>http://twitchtips.com/giveaway-one/</loc>
+            <loc>http://twitchtips.com/giveaway-two/</loc>
+        </url>
+        
+    
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/about/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/ban-checker/</loc>
+            <loc>http://twitchtips.com/index.html</loc>
         </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/contribute/</loc>
-        </url>
-        
-    
         
     
         
@@ -71,11 +53,35 @@
     
         
         <url>
-            <loc>http://twitchtips.com/about/</loc>
+            <loc>http://twitchtips.com/giveaway-one/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/get-started/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/sitemap.xml</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://twitchtips.com/contribute/</loc>
         </url>
         
     
 
+    
+        
+        <url>
+            <loc>http://twitchtips.com/panel-quickfix/</loc>
+        </url>
+        
     
         
         <url>
