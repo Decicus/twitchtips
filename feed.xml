@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-07-02T13:06:49+01:00</updated>
+<updated>2014-07-02T13:32:20+01:00</updated>
 <id>http://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -24,9 +24,9 @@
       <uri>http://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
-    <content type="html">&lt;p&gt;There is a bug that can happen if you have over 4 panels in your information area below your stream. The bug occurs if you edit the area and then save, when you refresh the page you might see that your panels have rearranged and are not the way you laid them out.  &lt;/p&gt;
+    <content type="html">&lt;p&gt;There is a bug that can happen if you have over 4 panels in your information area below your stream.  &lt;/p&gt;
 
-&lt;p&gt;Until this is fixed on the back-end of Twitch, here is how to fix it on your own:&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;The bug occurs if you edit the area and then save, when you refresh the page you might see that your panels have rearranged and are not the way you laid them out. Until this is fixed on the back-end of Twitch, here is how to fix it on your own:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Toggle editing on.&lt;/li&gt;
