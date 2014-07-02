@@ -5,9 +5,9 @@ description: "A quick fix to the self rearranging info panels bug."
 tags: [twitch, panels, info, quick, fix]
 comments: true
 ---
-There is a bug that can happen if you have over 4 panels in your information area below your stream. The bug occurs if you edit the area and then save, when you refresh the page you might see that your panels have rearranged and are not the way you laid them out.  
+There is a bug that can happen if you have over 4 panels in your information area below your stream.  
 
-Until this is fixed on the back-end of Twitch, here is how to fix it on your own:
+<br>The bug occurs if you edit the area and then save, when you refresh the page you might see that your panels have rearranged and are not the way you laid them out. Until this is fixed on the back-end of Twitch, here is how to fix it on your own:
 
 - Toggle editing on.
 - Delete every cell (copy paste the cell bodies to a word document in the top/down left/right order of how you want them to appear in your info area.     
