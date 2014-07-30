@@ -4,6 +4,7 @@ title: Self Rearranging Panel Fix
 description: "A quick fix to the self rearranging info panels bug."
 tags: [twitch, panels, info, quick, fix]
 comments: true
+draft: true
 ---
 There is a bug that can happen if you have over 4 panels in your information area below your stream.  
 
