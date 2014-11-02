@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Twitch Tips</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://twitchtips.com/feed.xml" />
-<link rel="alternate" type="text/html" href="http://twitchtips.com" />
-<updated>2014-07-30T21:37:57+01:00</updated>
-<id>http://twitchtips.com/</id>
+<link rel="self" type="application/atom+xml" href="https://twitchtips.com/feed.xml" />
+<link rel="alternate" type="text/html" href="https://twitchtips.com" />
+<updated>2014-11-02T18:12:35+00:00</updated>
+<id>https://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
-  <uri>http://twitchtips.com/</uri>
+  <uri>https://twitchtips.com/</uri>
   <email>contact@twitchtips.com</email>
 </author>
 
@@ -17,13 +17,13 @@
   
   <entry>
     <title type="html"><![CDATA[How to setup the Elgato Game Capture HD in OBS]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/elgato-game-capture-hd-obs/" />
-    <id>http://twitchtips.com/elgato-game-capture-hd-obs</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/elgato-game-capture-hd-obs/" />
+    <id>https://twitchtips.com/elgato-game-capture-hd-obs</id>
     <published>2014-06-28T00:00:00+01:00</published>
     <updated>2014-06-28T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Welcome to this guide which will show you how to setup your &lt;a href=&quot;http://www.gamecapture.com&quot;&gt;Elgato Game Capture HD&lt;/a&gt; in &lt;a href=&quot;http://www.obsproject.com&quot;&gt;OBS&lt;/a&gt;. Before we continue, please make sure you have each of these: &lt;/p&gt;
@@ -294,20 +294,20 @@
 
 &lt;p&gt;This guide was written by Phil, Community Coordinator at Elgato Gaming. If you require support for your Elgato Game Capture HD please contact &lt;a href=&quot;http://www.twitter.com/ElgatoSupport&quot;&gt;@ElgatoSupport&lt;/a&gt; or open a ticket via the &lt;a href=&quot;http://help.elgato.com/customer/portal/emails/new&quot;&gt;Elgato Help Desk&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/elgato-game-capture-hd-obs/&quot;&gt;How to setup the Elgato Game Capture HD in OBS&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 28, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/elgato-game-capture-hd-obs/&quot;&gt;How to setup the Elgato Game Capture HD in OBS&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 28, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[HexChat Setup for Twitch Chat]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/hexchat-guide/" />
-    <id>http://twitchtips.com/hexchat-guide</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/hexchat-guide/" />
+    <id>https://twitchtips.com/hexchat-guide</id>
     <published>2014-06-20T00:00:00+01:00</published>
     <updated>2014-06-20T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.&lt;/p&gt;
@@ -364,20 +364,20 @@
 
 &lt;p&gt;Written by &lt;a href=&quot;http://www.twitter.com/GUIpsp&quot;&gt;@GUIpsp&lt;/a&gt; based on the &lt;a href=&quot;http://twitchtips.com/kvirc-guide/&quot;&gt;KVIRC setup guide&lt;/a&gt; by &lt;a href=&quot;http://www.twitter.com/Izlsnizzt&quot;&gt;@Izlsnizzt&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/hexchat-guide/&quot;&gt;HexChat Setup for Twitch Chat&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 20, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/hexchat-guide/&quot;&gt;HexChat Setup for Twitch Chat&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 20, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Multi-display Broadcasting (OBS Guide)]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/multi-display/" />
-    <id>http://twitchtips.com/multi-display</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/multi-display/" />
+    <id>https://twitchtips.com/multi-display</id>
     <published>2014-06-14T00:00:00+01:00</published>
     <updated>2014-06-14T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;This tutorial will guide you through the process of how you can use &lt;strong&gt;&lt;em&gt;OBS&lt;/em&gt;&lt;/strong&gt; (&lt;em&gt;Open Broadcast Software&lt;/em&gt;) to broadcast using multiple displays ie: (Nvidia Surround/Eyefinity).&lt;/p&gt;
@@ -444,20 +444,20 @@
 
 &lt;p&gt;&lt;br /&gt;This article was written by Sammy. You can find Sammy on &lt;a href=&quot;http://www.twitter.com/ImSammyTTV&quot;&gt;Twitter&lt;/a&gt; and &lt;a href=&quot;http://www.twitch.tv/ImSammy&quot;&gt;Twitch&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/multi-display/&quot;&gt;Multi-display Broadcasting (OBS Guide)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 14, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/multi-display/&quot;&gt;Multi-display Broadcasting (OBS Guide)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on June 14, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Protecting Yourself Online]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/protecting-yourself/" />
-    <id>http://twitchtips.com/protecting-yourself</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/protecting-yourself/" />
+    <id>https://twitchtips.com/protecting-yourself</id>
     <published>2014-05-24T00:00:00+01:00</published>
     <updated>2014-05-24T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -541,20 +541,20 @@
 
 &lt;p&gt;&lt;br /&gt;Stay safe online, protect yourself and if you’re having problems with someone harassing you on Twitch send a report of them &lt;a href=&quot;http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-report&quot;&gt;following this method&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/protecting-yourself/&quot;&gt;Protecting Yourself Online&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 24, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/protecting-yourself/&quot;&gt;Protecting Yourself Online&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 24, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Greeter Bots]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/greeter-bots/" />
-    <id>http://twitchtips.com/greeter-bots</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/greeter-bots/" />
+    <id>https://twitchtips.com/greeter-bots</id>
     <published>2014-05-21T00:00:00+01:00</published>
     <updated>2014-05-21T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Are Bots that welcome users to your channel causing you to lose viewers? Find out here!&lt;/p&gt;
@@ -572,20 +572,20 @@
 &lt;p&gt;&lt;br /&gt;&lt;a href=&quot;https://twitter.com/TheRealIndie&quot;&gt;Twitter&lt;/a&gt;
 &lt;br /&gt;&lt;a href=&quot;https://www.facebook.com/indiearmy&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/greeter-bots/&quot;&gt;Greeter Bots&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/greeter-bots/&quot;&gt;Greeter Bots&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Chat moderation bots]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/chat-moderation-bots/" />
-    <id>http://twitchtips.com/chat-moderation-bots</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/chat-moderation-bots/" />
+    <id>https://twitchtips.com/chat-moderation-bots</id>
     <published>2014-05-19T00:00:00+01:00</published>
     <updated>2014-05-19T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;h2 id=&quot;bots---what-are-they&quot;&gt;1. Bots - what are they?&lt;/h2&gt;
@@ -803,20 +803,20 @@ In what way would that be less annoying than giving them the ability to post the
   &lt;li&gt;&lt;a href=&quot;http://twitch.tv/Cbenni&quot;&gt;Twitch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/chat-moderation-bots/&quot;&gt;Chat moderation bots&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 19, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/chat-moderation-bots/&quot;&gt;Chat moderation bots&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 19, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[KVIRC Setup for Twitch Chat]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/kvirc-guide/" />
-    <id>http://twitchtips.com/kvirc-guide</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/kvirc-guide/" />
+    <id>https://twitchtips.com/kvirc-guide</id>
     <published>2014-05-16T00:00:00+01:00</published>
     <updated>2014-05-16T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.&lt;/p&gt;
@@ -873,20 +873,20 @@ In what way would that be less annoying than giving them the ability to post the
 
 &lt;p&gt;Thank to &lt;a href=&quot;http://www.twitter.com/Izlsnizzt&quot;&gt;@Izlsnizzt&lt;/a&gt; for writing this guide on connecting to Twitch Chat via KVIRC. &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/kvirc-guide/&quot;&gt;KVIRC Setup for Twitch Chat&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 16, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/kvirc-guide/&quot;&gt;KVIRC Setup for Twitch Chat&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 16, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Poor Advertising]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/poor-advertising/" />
-    <id>http://twitchtips.com/poor-advertising</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/poor-advertising/" />
+    <id>https://twitchtips.com/poor-advertising</id>
     <published>2014-05-15T00:00:00+01:00</published>
     <updated>2014-05-15T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;What is the worst way to try and get viewers? Find out with this quick video!&lt;/p&gt;
@@ -900,20 +900,20 @@ In what way would that be less annoying than giving them the ability to post the
 &lt;p&gt;&lt;br /&gt;&lt;a href=&quot;https://twitter.com/TheRealIndie&quot;&gt;Twitter&lt;/a&gt;
 &lt;br /&gt;&lt;a href=&quot;https://www.facebook.com/indiearmy&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/poor-advertising/&quot;&gt;Poor Advertising&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/poor-advertising/&quot;&gt;Poor Advertising&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[The BetterTTV Extension]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/betterttv/" />
-    <id>http://twitchtips.com/betterttv</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/betterttv/" />
+    <id>https://twitchtips.com/betterttv</id>
     <published>2014-05-01T00:00:00+01:00</published>
     <updated>2014-05-01T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.&lt;/p&gt;
@@ -995,20 +995,20 @@ In what way would that be less annoying than giving them the ability to post the
 &lt;p&gt;Write up by &lt;a href=&quot;http://twitter.com/GavXD&quot;&gt;Gav&lt;/a&gt;, Thanks to &lt;a href=&quot;http://nightdev.com&quot;&gt;NightDev&lt;/a&gt; for his amazing Add-on!
 &lt;a href=&quot;http://twitch.tv/lirik&quot;&gt;Lirik&lt;/a&gt; Used as an example for chat screenshots!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/betterttv/&quot;&gt;The BetterTTV Extension&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 01, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/betterttv/&quot;&gt;The BetterTTV Extension&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 01, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Twitch Teams]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/twitch-teams/" />
-    <id>http://twitchtips.com/twitch-teams</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/twitch-teams/" />
+    <id>https://twitchtips.com/twitch-teams</id>
     <published>2014-04-30T00:00:00+01:00</published>
     <updated>2014-04-30T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Twitch teams. That feeling of being a part of something special with your fellow broadcasters. &lt;/p&gt;
@@ -1136,7 +1136,7 @@ In what way would that be less annoying than giving them the ability to post the
   &lt;li&gt;&lt;a href=&quot;http://www.twitch.tv/Sacriel&quot;&gt;Sacriel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/twitch-teams/&quot;&gt;Twitch Teams&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 30, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/twitch-teams/&quot;&gt;Twitch Teams&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 30, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -1145,13 +1145,13 @@ In what way would that be less annoying than giving them the ability to post the
   
   <entry>
     <title type="html"><![CDATA[XSplit Setup]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/xsplit-setup/" />
-    <id>http://twitchtips.com/xsplit-setup</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/xsplit-setup/" />
+    <id>https://twitchtips.com/xsplit-setup</id>
     <published>2014-04-18T00:00:00+01:00</published>
     <updated>2014-04-18T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;XSplit Broadcaster is one of the most popular broadcasting programs on Twitch and comes highly recommended. XSplit Broadcaster is considered an all-in-one solution as it allows the broadcaster to edit their stream with multiple camera shots, graphical overlays, chroma key, and picture-in-picture effects, as well as encoding the video feed with highly flexible range of quality options.&lt;br /&gt;
@@ -1253,20 +1253,20 @@ XSplit comes in a variety of Free, Personal and Premium versions, each with its 
 
 &lt;p&gt;&lt;br /&gt;Also thanks to fellow &lt;a href=&quot;http://www.twitch.tv/pipe&quot;&gt;Twitch Admin PIPe&lt;/a&gt; for sending me over a screenshot to demonstrate .. sources.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/xsplit-setup/&quot;&gt;XSplit Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/xsplit-setup/&quot;&gt;XSplit Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[OBS Setup]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/obs-setup/" />
-    <id>http://twitchtips.com/obs-setup</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/obs-setup/" />
+    <id>https://twitchtips.com/obs-setup</id>
     <published>2014-04-18T00:00:00+01:00</published>
     <updated>2014-04-18T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
@@ -1455,20 +1455,20 @@ Scene Buffering Time (ms): 400&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://help.twitch.tv/customer/portal/articles/1262922-open-broadcaster-software&quot;&gt;Original Post&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/obs-setup/&quot;&gt;OBS Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/obs-setup/&quot;&gt;OBS Setup&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Grey Screen Issue]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/grey-screen/" />
-    <id>http://twitchtips.com/grey-screen</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/grey-screen/" />
+    <id>https://twitchtips.com/grey-screen</id>
     <published>2014-04-17T00:00:00+01:00</published>
     <updated>2014-04-17T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;Got the issue where you can only see a grey screen with the Twitch logo centered in the middle? Well, here’s how to fix that issue!&lt;/p&gt;
@@ -1526,20 +1526,20 @@ Scene Buffering Time (ms): 400&lt;/li&gt;
 
 &lt;p&gt;Hopefully you managed to get the problem dealt with using this blog post, if not - keep trying. You may of just missed something simple. Let us know how you get on in the comments.   &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/grey-screen/&quot;&gt;Grey Screen Issue&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/grey-screen/&quot;&gt;Grey Screen Issue&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Donation panels (Paypal)]]></title>
-    <link rel="alternate" type="text/html" href="http://twitchtips.com/donation-panels-paypal/" />
-    <id>http://twitchtips.com/donation-panels-paypal</id>
+    <link rel="alternate" type="text/html" href="https://twitchtips.com/donation-panels-paypal/" />
+    <id>https://twitchtips.com/donation-panels-paypal</id>
     <published>2014-04-14T00:00:00+01:00</published>
     <updated>2014-04-14T00:00:00+01:00</updated>
     <author>
       <name>Twitch Tips</name>
-      <uri>http://twitchtips.com</uri>
+      <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
     <content type="html">&lt;p&gt;People seem to always ask how to set up a donation button / panel on their channel for Twitch. The most confusing part for most is setting up the donation “button”.&lt;/p&gt;
@@ -1569,7 +1569,7 @@ Scene Buffering Time (ms): 400&lt;/li&gt;
 
 &lt;p&gt;&lt;br /&gt;Please take note: PayPal’s “donation” button is designed for non-profit organizations. If you raise over $10,000 they will require proof you’re a non-profit organization. (Thank you to &lt;a href=&quot;http://twitter.com/joehills&quot;&gt;@joehills&lt;/a&gt; for pointing this out)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://twitchtips.com/donation-panels-paypal/&quot;&gt;Donation panels (Paypal)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;http://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/donation-panels-paypal/&quot;&gt;Donation panels (Paypal)&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
   </entry>
 
 

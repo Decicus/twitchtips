@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://twitchtips.com</loc>
+        <loc>https://twitchtips.com</loc>
     </url>
     
     
         
+    
+        
         <url>
-            <loc>http://twitchtips.com/posts/</loc>
+            <loc>https://twitchtips.com/giveaway-one/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/giveaway-two/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/posts/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/ban-checker/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/get-started/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/contribute/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/sitemap.xml</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/search.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/about/</loc>
         </url>
         
     
@@ -15,63 +71,7 @@
     
         
         <url>
-            <loc>http://twitchtips.com/giveaway-one/</loc>
-        </url>
-        
-    
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/sitemap.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/contribute/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/index.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/about/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/ban-checker/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/get-started/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://twitchtips.com/giveaway-two/</loc>
+            <loc>https://twitchtips.com/feed.xml</loc>
         </url>
         
     
@@ -81,61 +81,61 @@
     
         
         <url>
-            <loc>http://twitchtips.com/elgato-game-capture-hd-obs/</loc>
+            <loc>https://twitchtips.com/elgato-game-capture-hd-obs/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/hexchat-guide/</loc>
+            <loc>https://twitchtips.com/hexchat-guide/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/multi-display/</loc>
+            <loc>https://twitchtips.com/multi-display/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/protecting-yourself/</loc>
+            <loc>https://twitchtips.com/protecting-yourself/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/greeter-bots/</loc>
+            <loc>https://twitchtips.com/greeter-bots/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/chat-moderation-bots/</loc>
+            <loc>https://twitchtips.com/chat-moderation-bots/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/kvirc-guide/</loc>
+            <loc>https://twitchtips.com/kvirc-guide/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/poor-advertising/</loc>
+            <loc>https://twitchtips.com/poor-advertising/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/betterttv/</loc>
+            <loc>https://twitchtips.com/betterttv/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/twitch-teams/</loc>
+            <loc>https://twitchtips.com/twitch-teams/</loc>
         </url>
         
     
@@ -143,25 +143,25 @@
     
         
         <url>
-            <loc>http://twitchtips.com/xsplit-setup/</loc>
+            <loc>https://twitchtips.com/xsplit-setup/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/obs-setup/</loc>
+            <loc>https://twitchtips.com/obs-setup/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/grey-screen/</loc>
+            <loc>https://twitchtips.com/grey-screen/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://twitchtips.com/donation-panels-paypal/</loc>
+            <loc>https://twitchtips.com/donation-panels-paypal/</loc>
         </url>
         
     
