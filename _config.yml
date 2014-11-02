@@ -15,9 +15,9 @@ exclude:
   - _site
 
 title:            Twitch Tips
-description:      Describe your website.
+description:      "An unofficial source for tips, tricks and tutorials for the game streaming platform, Twitch."
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://twitchtips.com
+url:              https://twitchtips.com
 disqus_shortname: twitchtips
 
 # Permalink of giveaway page
