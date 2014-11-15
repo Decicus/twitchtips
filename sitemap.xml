@@ -7,13 +7,13 @@
     
         
         <url>
-            <loc>https://twitchtips.com/ban-checker/</loc>
+            <loc>https://twitchtips.com/sitemap.xml</loc>
         </url>
         
     
         
         <url>
-            <loc>https://twitchtips.com/giveaway-two/</loc>
+            <loc>https://twitchtips.com/search.html</loc>
         </url>
         
     
@@ -25,21 +25,19 @@
     
         
         <url>
+            <loc>https://twitchtips.com/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/giveaway-two/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://twitchtips.com/giveaway-one/</loc>
-        </url>
-        
-    
-        
-    
-        
-        <url>
-            <loc>https://twitchtips.com/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://twitchtips.com/feed.xml</loc>
         </url>
         
     
@@ -50,17 +48,11 @@
         
     
         
-    
-        
         <url>
-            <loc>https://twitchtips.com/sitemap.xml</loc>
+            <loc>https://twitchtips.com/feed.xml</loc>
         </url>
         
     
-        
-        <url>
-            <loc>https://twitchtips.com/about/</loc>
-        </url>
         
     
         
@@ -71,8 +63,16 @@
     
         
         <url>
-            <loc>https://twitchtips.com/index.html</loc>
+            <loc>https://twitchtips.com/ban-checker/</loc>
         </url>
+        
+    
+        
+        <url>
+            <loc>https://twitchtips.com/about/</loc>
+        </url>
+        
+    
         
     
 
