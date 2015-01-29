@@ -62,12 +62,12 @@ Recently its been noted that DNS issues on the user end may cause an issue reach
 
 ##### Google
 
-<br>8.8.8.8
+8.8.8.8
 <br>8.8.4.4<br>
 
 ##### OpenDNS
 
-<br>208.67.222.222
+208.67.222.222
 <br>208.67.220.220
 
 <br>If you're not sure on how to change your DNS settings simply follow guide provided on Twitch's help desk located [here](http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns).
