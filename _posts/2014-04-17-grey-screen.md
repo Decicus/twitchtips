@@ -16,6 +16,7 @@ Got the issue where you can only see a grey screen with the Twitch logo centered
 * Extension causing javascript errors
 * Firewall and / or Security software blocking JS execution
 * Malware
+* DNS Issues
 
 Let's start with the simple stuff, depending on the browser you're using follow the relevant instructions below:
 
@@ -54,6 +55,22 @@ The part we all didn't want to get to; Malware can be very annoying, sophisticat
 
 * [MalwareBytes - Free Anti-Malware & Internet Security Software](https://www.malwarebytes.org/)
 * [[Bleeping Computer] AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/)
+
+## DNS Issues
+
+Recently its been noted that DNS issues on the user end may cause an issue reaching the CDN for Twitch. If you already know how to altar your DNS you can simply change to either of the following DNS providers.
+
+** Google **
+
+8.8.8.8
+8.8.4.4
+
+** OpenDNS **
+
+208.67.222.222
+208.67.220.220
+
+If you're not sure on how to change your DNS settings simply follow guide provided on Twitch's help desk located [here](http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns).
 
 ## Conclusion
 
