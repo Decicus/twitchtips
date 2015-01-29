@@ -60,14 +60,14 @@ The part we all didn't want to get to; Malware can be very annoying, sophisticat
 
 Recently its been noted that DNS issues on the user end may cause an issue reaching the CDN for Twitch. If you already know how to altar your DNS you can simply change to either of the following DNS providers.
 
-* Google
+**Google**
 
-8.8.8.8
+<br>8.8.8.8
 <br>8.8.4.4
 
-* OpenDNS
+**OpenDNS**
 
-208.67.222.222
+<br>208.67.222.222
 <br>208.67.220.220
 
 <br>If you're not sure on how to change your DNS settings simply follow guide provided on Twitch's help desk located [here](http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns).
