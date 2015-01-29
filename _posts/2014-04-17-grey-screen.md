@@ -63,14 +63,14 @@ Recently its been noted that DNS issues on the user end may cause an issue reach
 * Google
 
 8.8.8.8
-8.8.4.4
+<br>8.8.4.4
 
 * OpenDNS
 
 208.67.222.222
-208.67.220.220
+<br>208.67.220.220
 
-If you're not sure on how to change your DNS settings simply follow guide provided on Twitch's help desk located [here](http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns).
+<br>If you're not sure on how to change your DNS settings simply follow guide provided on Twitch's help desk located [here](http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns).
 
 ## Conclusion
 
