@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="https://twitchtips.com" />
-<updated>2015-01-07T22:02:24+00:00</updated>
+<updated>2015-01-29T00:10:44+00:00</updated>
 <id>https://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -1480,6 +1480,7 @@ Scene Buffering Time (ms): 400&lt;/li&gt;
   &lt;li&gt;Extension causing javascript errors&lt;/li&gt;
   &lt;li&gt;Firewall and / or Security software blocking JS execution&lt;/li&gt;
   &lt;li&gt;Malware&lt;/li&gt;
+  &lt;li&gt;DNS Issues&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Let’s start with the simple stuff, depending on the browser you’re using follow the relevant instructions below:&lt;/p&gt;
@@ -1521,6 +1522,22 @@ Scene Buffering Time (ms): 400&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.malwarebytes.org/&quot;&gt;MalwareBytes - Free Anti-Malware &amp;amp; Internet Security Software&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.bleepingcomputer.com/download/adwcleaner/&quot;&gt;[Bleeping Computer] AdwCleaner&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;dns-issues&quot;&gt;DNS Issues&lt;/h2&gt;
+
+&lt;p&gt;Recently its been noted that DNS issues on the user end may cause an issue reaching the CDN for Twitch. If you already know how to altar your DNS you can simply change to either of the following DNS providers.&lt;/p&gt;
+
+&lt;p&gt;** Google **&lt;/p&gt;
+
+&lt;p&gt;8.8.8.8
+8.8.4.4&lt;/p&gt;
+
+&lt;p&gt;** OpenDNS **&lt;/p&gt;
+
+&lt;p&gt;208.67.222.222
+208.67.220.220&lt;/p&gt;
+
+&lt;p&gt;If you’re not sure on how to change your DNS settings simply follow guide provided on Twitch’s help desk located &lt;a href=&quot;http://help.twitch.tv/customer/portal/articles/1444294-how-to-switch-your-dns&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
