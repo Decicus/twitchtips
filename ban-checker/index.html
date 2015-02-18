@@ -320,8 +320,12 @@
 		    check_user(user)
 			})
 
-			if (location.hash) {
-				check_user(location.hash.substr(1))
+			var hash = location.hash
+
+			if (hash) {
+				var user = hash.substr(1)
+				$('#ban-check input').val(user)
+				check_user(user)
 			}
 		})
 	</script>
