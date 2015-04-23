@@ -265,7 +265,7 @@
 			$.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function (data) {
 				if (/.+is unavailable$/.test(data.message)) { // Ban Check
 					var message = 'It looks like you were banned from twitch, please open a ticket via the '
-					message += '<a target="_blank" href="http://help.twitch.tv/">official twitch support</a> '
+					message += '<a target="_blank" href="help.twitch.tv/customer/portal/emails/new">official twitch support</a> '
 					message += 'site in order to see why you were banned.<br />'
 					message += '<span>TwitchTips cannot and will not help with your appeal</span>'
 					form_result('fail', message)
@@ -279,7 +279,7 @@
 					message += 'Got multiple accounts? Try checking those too because Twitch bans can be IP based.<br/><br/>'
 					message += 'If after doing so you are still getting the same error, '
 					message += 'your ISP may have provided your modem with a previously banned IP address. '
-					message += 'You can <a style="color: #fff" href="http://help.twitch.tv/" target="_blank"><strong>open a ticket</strong></a> with Twitch to check.'
+					message += 'You can <a style="color: #fff" href="help.twitch.tv/customer/portal/emails/new" target="_blank"><strong>open a ticket</strong></a> with Twitch to check.'
 					form_result('success', message)
 				}
 			}).fail(function () {
