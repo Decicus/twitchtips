@@ -5,9 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>All Posts &#8211; Twitch Tips</title>
+<title>User Checker &#8211; Twitch Tips</title>
 <meta name="description" content="">
-<meta name="keywords" content="blog">
+<meta name="keywords" content="">
 <!-- Twitter Cards -->
 	
 		<meta name="twitter:card" content="summary">
@@ -19,7 +19,7 @@
 			
 		>
 	
-	<meta name="twitter:title" content="All Posts">
+	<meta name="twitter:title" content="User Checker">
 	<meta name="twitter:description" content="An unofficial source for tips, tricks and tutorials for the game streaming platform, Twitch.">
 	<meta name="twitter:creator" content="@TwitchTips">
 
@@ -27,9 +27,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="All Posts">
+<meta property="og:title" content="User Checker">
 <meta property="og:description" content="An unofficial source for tips, tricks and tutorials for the game streaming platform, Twitch.">
-<meta property="og:url" content="https://twitchtips.com/posts/">
+<meta property="og:url" content="https://twitchtips.com/user-checker/">
 <meta property="og:site_name" content="Twitch Tips">
 
 <!-- Webmaster Tools verfication -->
@@ -37,7 +37,7 @@
 
 
 
-<link rel="canonical" href="https://twitchtips.com/posts/">
+<link rel="canonical" href="https://twitchtips.com/user-checker/">
 <link href="https://twitchtips.com/feed.xml" type="application/atom+xml" rel="alternate" title="Twitch Tips Feed">
 
 
@@ -100,7 +100,7 @@
 <link rel="shortcut icon" href="https://twitchtips.com/favicon.png">
 </head>
 
-<body class="post-index">
+<body class="page">
 
 <!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
 
@@ -131,8 +131,9 @@
 
 
 
-<div class="article-author-side">
-  
+<div id="main" role="main">
+  <div class="article-author-side">
+    
 	<img src="https://twitchtips.com/images/bio-photo.png" class="bio-photo" alt="Twitch Tips bio photo"></a>
 
 <h3>Twitch Tips</h3>
@@ -157,10 +158,9 @@
     
 	</div>
 </form>
-</div>
-
-<div id="index">
-  
+  </div>
+  <article>
+    
 <section id="search-results" style="display: none;">
   <div class="container">
     <div class="row">
@@ -173,142 +173,162 @@
   </div>
 </section>
 
-  <h1>All Posts</h1>
+    <h1>User Checker</h1>
+    <div id="social-share">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://twitchtips.com/user-checker/" title="Share on Facebook"><span class="count"><i class="icon-facebook"></i> Like</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://twitchtips.com/user-checker/&via=TwitchTips&hashtags=TwitchTips" title="Share on Twitter"><span class="count"><i class="icon-twitter"></i> Tweet</span></a>
+  <a href="https://plus.google.com/share?url=https://twitchtips.com/user-checker/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus"></i> +1</span></a>
+  <a href="https://reddit.com/submit?url=https://twitchtips.com/user-checker/" title="Share on Reddit"><span class="count"><i style="font-size: 15pt" class="fa fa-reddit-square"></i> Reddit</span></a>
+</div>
+    <div class="article-wrap">
+      
+  <style>
+    form#user-check {
+      float: left;
+      margin-top: 10px;
+    }
+    
+    form#user-check input {
+      height: 50px;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 18pt;
+      padding-left: 10px;
+      width: 400px;
+    }
+    
+    .description {
+      float: left;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 18pt;
+      width: 400px;
+    }
+    
+    .result {
+      border-radius: 5px;
+      clear: both;
+      color: white;
+      display: none;
+      float: left;
+      font-family: 'PT Sans Narrow', sans-serif;
+      height: 100px;
+      padding: 10px;
+      text-transform: uppercase;
+      width: 380px;
+    }
+    
+    .result h3 {
+      font-weight: normal;
+      margin: 0px;
+    }
+    
+    .result a {
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    .result span {
+      color: #000;
+      font-weight: bold;
+    }
+    
+    .result.success {
+      background-color: #78a410;
+      border: 1px solid #2e3c0d;
+      height: 100px;
+    }
+
+    .result.fail {
+      background-color: #ed6e6e;
+      border: 1px solid #7f1010;
+      height: 180px;
+    }
+  </style>
+  <form id="user-check">
+    <div class="form-group pull-right">
+      <input type="text" class="form-control" placeholder="Twitch username" />
+    </div>
+  </form>
+  <p class="description">
+    Enter a Twitch username to see if a user is a Twitch Staff / Admin / Global Moderator.
+    <br/>
+  </p>
+  <div class="result"></div>
+  <script type="text/javascript">
+    var check_user = function (user) {
+      $(".description").fadeOut(20)
+      
+      $.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function (data) {
+        if (data.type === 'staff' || data.type === 'admin' || data.type === 'global_mod') {
+          var rank
+
+          switch (data.type) {
+            case 'staff':
+              rank = 'Twitch Staff'
+              break
+            case 'admin':
+              rank = 'Admin'
+              break
+            case 'global_mod':
+              rank = 'Global Moderator'
+              break
+          }
+
+          return form_result('success', 'This account is a verified ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.')
+        }
+
+        var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.'
+
+        form_result('fail', message)
+      }).fail(function () {
+        form_result('warn', 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.')
+      })  
+    }
+
+    var form_result = function (type, message) {
+      if (type === 'success') {
+        var title = "All is well!"
+      } else {
+        var title = "Oh dear!"
+      }
+      
+      $('.result').attr('class', 'result')
+      $('.result').html('<h3>' + title + '</h3>' + message)
+      $('.result').addClass(type)
+      $(".result").fadeIn()
+    }
   
+    $(document).ready(function () {
+      $('#user-check').submit(function (e) {
+        e.preventDefault()
+      })
       
-      
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/elgato-game-capture-hd-obs/" title="How to setup the Elgato Game Capture HD in OBS">How to setup the Elgato Game Capture HD in OBS</a></h2>
-            <p>How to setup the Elgato Game Capture HD in OBS</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/hexchat-guide/" title="HexChat Setup for Twitch Chat">HexChat Setup for Twitch Chat</a></h2>
-            <p>Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using HexChat.</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/multi-display/" title="Multi-display Broadcasting (OBS Guide)">Multi-display Broadcasting (OBS Guide)</a></h2>
-            <p>A Guide to Multi-display broadcasting ie: (Nvidia Surround/Eyefinity) Using OBS</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/protecting-yourself/" title="Protecting Yourself Online">Protecting Yourself Online</a></h2>
-            <p>Learn how to protect yourself online from attacks including DDoS and personal attacks.</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/greeter-bots/" title="Greeter Bots">Greeter Bots</a></h2>
-            <p>Are Bots that welcome users to your channel causing you to lose viewers? Find out here!</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/chat-moderation-bots/" title="Chat moderation bots">Chat moderation bots</a></h2>
-            <p>Learn how to chose between and use various twitch moderation bots.</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/kvirc-guide/" title="KVIRC Setup for Twitch Chat">KVIRC Setup for Twitch Chat</a></h2>
-            <p>Connecting to Twitch IRC can be quite the task for those not knowledgeable with IRC client, check out how you can set yourself up connecting to Twitch chats using KVIRC.</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/poor-advertising/" title="Poor Advertising">Poor Advertising</a></h2>
-            <p>What is the worst way to try and get viewers? Find out with this quick video!</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/betterttv/" title="The BetterTTV Extension">The BetterTTV Extension</a></h2>
-            <p>Get the best out of Twitch with these enhancements</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/twitch-teams/" title="Twitch Teams">Twitch Teams</a></h2>
-            <p>Twitch teams. That feeling of being a part of something special with your fellow broadcasters. A sense of belonging sharing a common bond within the vast awesomeness of Twitch. But what purpose do they really serve and how can they help you as a streamer?</p>
-          
-        </article>
-      
-      
-      
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/xsplit-setup/" title="XSplit Setup">XSplit Setup</a></h2>
-            <p>Ready to start casting, here's a setup guide for XSplit!</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/obs-setup/" title="OBS Setup">OBS Setup</a></h2>
-            <p>Ready to start casting, here's a setup guide for OBS!</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/grey-screen/" title="Grey Screen Issue">Grey Screen Issue</a></h2>
-            <p>Got the issue where you can only see a grey screen with the Twitch logo centered in the middle? Well, here's how to fix that issue!</p>
-          
-        </article>
-      
-      
-      
-        <article>
-          
-            <h2><a href="https://twitchtips.com/donation-panels-paypal/" title="Donation panels (Paypal)">Donation panels (Paypal)</a></h2>
-            <p>People seem to always ask how to set up a donation button / panel on their channel for Twitch. The most confusing part for most is setting up the donation “button”.</p>
-          
-        </article>
-      
+      $('#user-check').keyup(function (e) {
+        if (e.keyCode !== 13) {
+          return
+        }
+        
+        e.preventDefault()
+        
+        var user = $('#user-check input').val()
+        window.location.hash = '#' + user
+
+        check_user(user)
+      })
+
+      var hash = location.hash
+
+      if (hash) {
+        var user = hash.substr(1)
+        $('#user-check input').val(user)
+        check_user(user)
+      }
+    })
+  </script>
+
+
+    </div><!-- /.article-wrap -->
     
-    
+  </article>
 </div><!-- /#index -->
 
 <div class="footer-wrap">
@@ -336,7 +356,7 @@
   })();
 </script>
 
+          
 
-  
 </body>
 </html>
