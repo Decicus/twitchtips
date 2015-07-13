@@ -81,6 +81,8 @@ links:
     url: /contribute/
   - title: Ban Checker
     url: /ban-checker/
+  - title: User Checker
+    url: /user-checker/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
