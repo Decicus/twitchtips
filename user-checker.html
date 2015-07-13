@@ -62,6 +62,12 @@ comments: false
       height: 100px;
     }
 
+    .result.warn {
+      background-color: #f2a33c;
+      border: 1px solid #8f5211;
+      height: 70px;
+    }
+
     .result.fail {
       background-color: #ed6e6e;
       border: 1px solid #7f1010;
@@ -83,6 +89,10 @@ comments: false
       $(".description").fadeOut(20)
       
       $.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function (data) {
+        if (!data.type) {
+          return form_result('warn', 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.')
+        }
+
         if (data.type === 'staff' || data.type === 'admin' || data.type === 'global_mod') {
           var rank
 
@@ -112,6 +122,8 @@ comments: false
     var form_result = function (type, message) {
       if (type === 'success') {
         var title = "All is well!"
+      } else if (type === 'warn') {
+        var title = "Hmm, That's not right!"
       } else {
         var title = "Oh dear!"
       }
