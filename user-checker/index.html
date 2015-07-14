@@ -309,7 +309,7 @@
           }
         }
 
-        var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.'
+        var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.'
 
         form_result('fail', message)
       }).fail(function () {
