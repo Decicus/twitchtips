@@ -140,7 +140,7 @@ comments: false
     }
 
     var form_result = function (type, message) {
-      if (type === 'success') {
+      if (type === 'staff' || type === 'admin' || type === 'globalmod') {
         var title = "All is well!"
       } else if (type === 'warn') {
         var title = "Hmm, That's not right!"
