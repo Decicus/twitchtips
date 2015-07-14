@@ -231,11 +231,24 @@
       font-weight: bold;
     }
     
-    .result.success {
-      background-color: #78a410;
-      border: 1px solid #2e3c0d;
+    .result.staff {
+      background-color: #200f33;
+      border: 1px solid #401f65;
       height: 100px;
     }
+    
+      .result.admin {
+      background-color: #faaf19;
+      border: 1px solid #eab854;
+      height: 100px;
+    }
+
+    .result.globalmod {
+      background-color: #086e22;
+      border: 1px solid #1aa73e;
+      height: 100px;
+    }
+
 
     .result.warn {
       background-color: #f2a33c;
@@ -282,8 +295,15 @@
               rank = 'Global Moderator'
               break
           }
-
-          return form_result('success', 'This account is a verified ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.')
+          if (rank === "Twitch Staff") {
+            return form_result('staff', 'This account is a verified ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.')
+          } 
+          else if (rank === "Admin") {
+            return form_result('admin', 'This account is a verified ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.')
+          }
+          else if (rank === "Global Moderator") {
+            return form_result('globalmod', 'This account is a verified ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.')
+          }
         }
 
         var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>.'
