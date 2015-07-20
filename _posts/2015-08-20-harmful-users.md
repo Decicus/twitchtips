@@ -4,7 +4,7 @@ title: Noticing Harmful Users
 description: "Concerned that a user or group of users will cause damage through your stream? Find out how to spot them here!"
 tags: [twitch,tips,noticing,post,harmful,users,safety,protecting,yourself]
 comments: true
-draft: true
+draft: false
 ---
 
 ## Introduction
@@ -21,7 +21,7 @@ These are the usual things trolls and scammers use to convince people to listen 
 Often, this is used at the start of the troll and is said to be a consequence of a virus. Sometimes, the fact that there is no sound can be true. Make sure that there is sound on your stream before taking action.   
 
 ### System 32
-This is usually telling people that System 32 is a virus and that you should delete it immediately. Trolls also spam '<message deleted by system32>'. 
+This is usually telling people that System 32 is a virus and that you should delete it immediately. Trolls also spam 'message deleted by system32'. 
 
 <br>If you did not know, System 32 is the folder that keeps your Windows OS installation. If you delete this folder, you have practically deleted your computer. 
 
@@ -71,11 +71,11 @@ If you find [something like this,](http://imgur.com/RB9chxb) you pretty much hav
 
 
 ### Information Leaked
-<br>Reset everything immediately, most importantly passwords and stream keys. 
+Reset everything immediately, most importantly passwords and stream keys. 
 
 
 ### Users trolling, scamming or using racist usernames. 
-<br>Ban them from your channel. Using /subscribers can be a good way to stop chat while the issue blows over. Also, make sure to [report them.](http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-report) 
+Ban them from your channel. Using /subscribers can be a good way to stop chat while the issue blows over. Also, make sure to [report them.](http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-report) 
 
 
 ***** 
