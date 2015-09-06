@@ -8,7 +8,7 @@ comments: true
 
 Ever wanted to let your audience know you're also on social media without repeating yourself? This quick guide goes through setting up an animated social media popup!
 
-<iframe width="853" height="480" src="//www.youtube.com/watch?v=VHZ7MjrQpL4" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="//www.youtube.com/embed/VHZ7MjrQpL4" frameborder="0" allowfullscreen></iframe>
 
 
 ---
