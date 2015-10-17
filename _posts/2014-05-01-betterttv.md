@@ -6,7 +6,7 @@ tags: [Better Twitch, BetterTTV, BTTV, Customization, Dark Mode, Twitch enhancem
 comments: true
 ---
 
-BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
+BetterTTV enhances Twitch with new features, bug fixes, and reduced clutter.
  
 ## Features
 
@@ -33,7 +33,7 @@ BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
 * Notifications
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & more!
 
-## A Quick guide to setting up BetterTTV
+## Guide to setting up BetterTTV
 
 Download it from the specific link for your browser:  
 
@@ -57,7 +57,7 @@ Download it from the specific link for your browser:
 </figure>
  ----
 
-## Chroma Keying Chat (depreciated)
+## Chroma Keying Chat (deprecated)
 
 *\*(BTTV Black Chat (Chroma Key) feature is deprecated in favor of [KapChat](https://nightdev.com/kapchat/), and will eventually be removed.\**
  
@@ -81,5 +81,5 @@ Download it from the specific link for your browser:
 <a href="/images/customization_guide/bttv_custom_ingame.jpg"><img src="/images/customization_guide/bttv_custom_ingame.jpg"></a>
 </figure>
 
-Write up by [Gav](http://twitter.com/GavXD), Thanks to [NightDev](http://nightdev.com) for his amazing Add-on!
-[Lirik](http://twitch.tv/lirik) Used as an example for chat screenshots!
+Write up by [Gav](http://twitter.com/GavXD). Thanks to [NightDev, LLC](https://nightdev.com) for their amazing add-on!
+[Lirik](http://twitch.tv/lirik) used as an example for chat screenshots!
