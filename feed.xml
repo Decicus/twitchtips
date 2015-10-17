@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="https://twitchtips.com" />
-<updated>2015-09-06T22:11:19+01:00</updated>
+<updated>2015-10-17T12:54:04+01:00</updated>
 <id>https://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -1029,7 +1029,7 @@ In what way would that be less annoying than giving them the ability to post the
       <uri>https://twitchtips.com</uri>
       <email>contact@twitchtips.com</email>
     </author>
-    <content type="html">&lt;p&gt;BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.&lt;/p&gt;
+    <content type="html">&lt;p&gt;BetterTTV enhances Twitch with new features, bug fixes, and reduced clutter.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 
@@ -1038,52 +1038,54 @@ In what way would that be less annoying than giving them the ability to post the
   &lt;li&gt;Blacklist spam&lt;/li&gt;
   &lt;li&gt;Chat field history&lt;/li&gt;
   &lt;li&gt;Highlight words and phrases&lt;/li&gt;
-  &lt;li&gt;Improved connection monitoring&lt;/li&gt;
-  &lt;li&gt;Improved server selection&lt;/li&gt;
+  &lt;li&gt;Pinned highlighted words and phrases&lt;/li&gt;
+  &lt;li&gt;Improved connection monitoring &amp;amp; server selection&lt;/li&gt;
   &lt;li&gt;Resizeable (drag-able) chat&lt;/li&gt;
   &lt;li&gt;Show or remove deleted messages&lt;/li&gt;
   &lt;li&gt;Split chat lines and paragraph indentation&lt;/li&gt;
-  &lt;li&gt;Unban all users with /massunban&lt;/li&gt;
+  &lt;li&gt;Unban all users with &lt;code&gt;/massunban&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Username color calculation (prevents hard-to-read names)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Username tab completion&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Broadcast Dashboard
-&lt;br /&gt;Prioritizes chat, and auto-updates channel statistics&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Darken Twitch
-&lt;br /&gt;A slick, grey theme which will make you love Twitch even more&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Username &amp;amp; emote tab completion&lt;/li&gt;
+  &lt;li&gt;Enhanced moderator cards and keybinds&lt;/li&gt;
+  &lt;li&gt;Anon Chat (hidden in viewer list)&lt;/li&gt;
+  &lt;li&gt;Chat image link previews on hover&lt;/li&gt;
+  &lt;li&gt;Broadcast Dashboard
+       - Prioritizes chat, and auto-updates channel statistics&lt;/li&gt;
+  &lt;li&gt;Darken Twitch
+       - A slick, grey theme which will make you love Twitch even more&lt;/li&gt;
   &lt;li&gt;Notifications
-&lt;br /&gt;On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live &amp;amp; More!&lt;/li&gt;
+       - On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live &amp;amp; more!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;a-quick-guide-to-setting-up-betterttv&quot;&gt;A Quick guide to setting up BetterTTV&lt;/h2&gt;
+&lt;h2 id=&quot;guide-to-setting-up-betterttv&quot;&gt;Guide to setting up BetterTTV&lt;/h2&gt;
 
-&lt;p&gt;Download it from the specific link for your browser&lt;br /&gt;
-&lt;a href=&quot;https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en&quot;&gt;Chrome&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvfirefox.xpi&quot;&gt;Firefox&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvopera.nex&quot;&gt;Opera&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvsafari.safariextz&quot;&gt;Safari&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvie.exe&quot;&gt;Internet Explorer&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttv.user.js&quot;&gt;UserScript for GreaseMonkey / Tamper Monkey&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;Download it from the specific link for your browser:  &lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en&quot;&gt;Chrome&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvfirefox.xpi&quot;&gt;Firefox&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvopera.nex&quot;&gt;Opera&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvsafari.safariextz&quot;&gt;Safari&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttvie.exe&quot;&gt;Internet Explorer&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nightdev.com/betterttv/betterttv.user.js&quot;&gt;UserScript for GreaseMonkey / Tamper Monkey&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;Once you have installed it navigate to a TwitchTV channel. Click the Cog And Click BetterTTV Settings.&lt;/p&gt;
 
 &lt;figure&gt;
  &lt;a href=&quot;/images/customization_guide/bttv_howto_settings.png&quot;&gt;&lt;img src=&quot;/images/customization_guide/bttv_howto_settings.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt;Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;Then choose your settings, below are my custom settings which I think are the best way to do it but feel free to try everything out!&lt;/p&gt;
 
 &lt;figure&gt;
  &lt;a href=&quot;/images/customization_guide/bttv_custom_settings.png&quot;&gt;&lt;img src=&quot;/images/customization_guide/bttv_custom_settings.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;chroma-keying-chat&quot;&gt;Chroma Keying Chat&lt;/h2&gt;
+&lt;h2 id=&quot;chroma-keying-chat-deprecated&quot;&gt;Chroma Keying Chat (deprecated)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;*(BTTV Black Chat (Chroma Key) feature is deprecated in favor of &lt;a href=&quot;https://nightdev.com/kapchat/&quot;&gt;KapChat&lt;/a&gt;, and will eventually be removed.*&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;For streamers who want to Chroma key the chat onto your screen without a background so it goes over games can follow the next part.
 &lt;br /&gt;
@@ -1105,8 +1107,8 @@ In what way would that be less annoying than giving them the ability to post the
 &lt;a href=&quot;/images/customization_guide/bttv_custom_ingame.jpg&quot;&gt;&lt;img src=&quot;/images/customization_guide/bttv_custom_ingame.jpg&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Write up by &lt;a href=&quot;http://twitter.com/GavXD&quot;&gt;Gav&lt;/a&gt;, Thanks to &lt;a href=&quot;http://nightdev.com&quot;&gt;NightDev&lt;/a&gt; for his amazing Add-on!
-&lt;a href=&quot;http://twitch.tv/lirik&quot;&gt;Lirik&lt;/a&gt; Used as an example for chat screenshots!&lt;/p&gt;
+&lt;p&gt;Write up by &lt;a href=&quot;http://twitter.com/GavXD&quot;&gt;Gav&lt;/a&gt;. Thanks to &lt;a href=&quot;https://nightdev.com&quot;&gt;NightDev, LLC&lt;/a&gt; for their amazing add-on!
+&lt;a href=&quot;http://twitch.tv/lirik&quot;&gt;Lirik&lt;/a&gt; used as an example for chat screenshots!&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://twitchtips.com/betterttv/&quot;&gt;The BetterTTV Extension&lt;/a&gt; was originally published by Twitch Tips at &lt;a href=&quot;https://twitchtips.com&quot;&gt;Twitch Tips&lt;/a&gt; on May 01, 2014.&lt;/p&gt;</content>
   </entry>
