@@ -15,12 +15,11 @@ BetterTTV enhances Twitch with new features, bug fixes, and reduced clutter.
 * Chat field history
 * Highlight words and phrases
 * Pinned highlighted words and phrases
-* Improved connection monitoring
-* Improved server selection
+* Improved connection monitoring & server selection
 * Resizeable (drag-able) chat
 * Show or remove deleted messages
 * Split chat lines and paragraph indentation
-* Unban all users with /massunban
+* Unban all users with `/massunban`
 * Username color calculation (prevents hard-to-read names)
 * Username & emote tab completion
 * Enhanced moderator cards and keybinds
@@ -56,7 +55,7 @@ Download it from the specific link for your browser:
  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
 </figure>
  ----
-
+ 
 ## Chroma Keying Chat (deprecated)
 
 *\*(BTTV Black Chat (Chroma Key) feature is deprecated in favor of [KapChat](https://nightdev.com/kapchat/), and will eventually be removed.\**
