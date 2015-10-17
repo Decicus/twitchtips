@@ -6,56 +6,59 @@ tags: [Better Twitch, BetterTTV, BTTV, Customization, Dark Mode, Twitch enhancem
 comments: true
 ---
 
-BetterTTV Enhances Twitch with new features, bug fixes, and reduced clutter.
+BetterTTV enhances Twitch with new features, bug fixes, and reduced clutter.
  
 ## Features
- 
+
 * Chat Tweaks
 * Blacklist spam
 * Chat field history
 * Highlight words and phrases
-* Improved connection monitoring
-* Improved server selection
+* Pinned highlighted words and phrases
+* Improved connection monitoring & server selection
 * Resizeable (drag-able) chat
 * Show or remove deleted messages
 * Split chat lines and paragraph indentation
-* Unban all users with /massunban
+* Unban all users with `/massunban`
 * Username color calculation (prevents hard-to-read names)
-* Username tab completion
- 
+* Username & emote tab completion
+* Enhanced moderator cards and keybinds
+* Anon Chat (hidden in viewer list)
+* Chat image link previews on hover
 * Broadcast Dashboard
-<br>Prioritizes chat, and auto-updates channel statistics
- 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Prioritizes chat, and auto-updates channel statistics
 * Darken Twitch
-<br>A slick, grey theme which will make you love Twitch even more
- 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A slick, grey theme which will make you love Twitch even more
 * Notifications
-<br>On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & More!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - On-site and desktop notifications when people send you messages, mention you in chat, and when channels you follow go live & more!
 
-## A Quick guide to setting up BetterTTV
+## Guide to setting up BetterTTV
 
-Download it from the specific link for your browser  
-[Chrome](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en)  
-[Firefox](http://www.nightdev.com/betterttv/betterttvfirefox.xpi)  
-[Opera](http://www.nightdev.com/betterttv/betterttvopera.nex)  
-[Safari](http://www.nightdev.com/betterttv/betterttvsafari.safariextz)  
-[Internet Explorer](http://www.nightdev.com/betterttv/betterttvie.exe)  
-[UserScript for GreaseMonkey / Tamper Monkey](http://www.nightdev.com/betterttv/betterttv.user.js)  
- 
-<br>Once you have installed it navigate to a TwitchTV channel, Click the Cog And Click BetterTTV Settings.
+Download it from the specific link for your browser:  
+
+ - [Chrome](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped?hl=en)  
+ - [Firefox](http://www.nightdev.com/betterttv/betterttvfirefox.xpi)  
+ - [Opera](http://www.nightdev.com/betterttv/betterttvopera.nex)  
+ - [Safari](http://www.nightdev.com/betterttv/betterttvsafari.safariextz)  
+ - [Internet Explorer](http://www.nightdev.com/betterttv/betterttvie.exe)  
+ - [UserScript for GreaseMonkey / Tamper Monkey](http://www.nightdev.com/betterttv/betterttv.user.js)  
+
+<br>Once you have installed it navigate to a TwitchTV channel. Click the Cog And Click BetterTTV Settings.
 
 <figure>
  <a href="/images/customization_guide/bttv_howto_settings.png"><img src="/images/customization_guide/bttv_howto_settings.png"></a>
 </figure>
 
-<br>Then choose your settings, Below are my custom settings which I think are the best way to do it but feel free to try everything out!
+<br>Then choose your settings, below are my custom settings which I think are the best way to do it but feel free to try everything out!
 
 <figure>
  <a href="/images/customization_guide/bttv_custom_settings.png"><img src="/images/customization_guide/bttv_custom_settings.png"></a>
 </figure>
  ----
+ 
+## Chroma Keying Chat (deprecated)
 
-## Chroma Keying Chat
+*\*(BTTV Black Chat (Chroma Key) feature is deprecated in favor of [KapChat](https://nightdev.com/kapchat/), and will eventually be removed.\**
  
 <br>For streamers who want to Chroma key the chat onto your screen without a background so it goes over games can follow the next part.
 <br>
@@ -77,5 +80,5 @@ Download it from the specific link for your browser
 <a href="/images/customization_guide/bttv_custom_ingame.jpg"><img src="/images/customization_guide/bttv_custom_ingame.jpg"></a>
 </figure>
 
-Write up by [Gav](http://twitter.com/GavXD), Thanks to [NightDev](http://nightdev.com) for his amazing Add-on!
-[Lirik](http://twitch.tv/lirik) Used as an example for chat screenshots!
+Write up by [Gav](http://twitter.com/GavXD). Thanks to [NightDev, LLC](https://nightdev.com) for their amazing add-on!
+[Lirik](http://twitch.tv/lirik) used as an example for chat screenshots!
