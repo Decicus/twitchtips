@@ -121,11 +121,11 @@ Xanbot is completely free to use for all users.
 * Raffle, Polls
 * Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.
 
-You can get Xanbot by going to [http://twitch.tv/xangold](http://twitch.tv/xangold) and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with
+You can get Xanbot by going to [http://twitch.tv/xangold](http://twitch.tv/xangold) and typing `!join` in chat. Afterwards, add Xanbot as a moderator in your channel with
 {% highlight html %}
 /mod Xanbot
 {% endhighlight %}
-<br>A complete command list for Xanbot can be found at [http://twitchtvchat.com/xanbotinfo.html](http://twitchtvchat.com/xanbotinfo.html)
+<br>A complete command list for Xanbot can be found at [http://xangold.tv/help/](http://xangold.tv/help/)
 
 ## 4. Which Bot to Choose?
 Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?  
@@ -143,9 +143,9 @@ In a lot of cases, these aren’t provided free of charge however or pose the pr
 Using a bot can be complicated and hard to people who are new to moderation.   
 Thankfully, there are a lot of people giving support for the bot you decide to use! In the case of the 3 bots listed above, you can find support for  
 <br>
-**Nightbot:** Use the support form on the Nightbot dashboard: [http://nightbot.tv/support](http://nightbot.tv/support)  
+**Nightbot:** Tweet at [https://twitter.com/theNightbot](https://twitter.com/theNightbot) or use the support form on the Nightbot dashboard: [http://nightbot.tv/support](http://nightbot.tv/support)  
 <br>
-**Moobot:** Tweet at [https://twitter.com/TwitchTVMoobot](https://twitter.com/TwitchTVMoobot) or ask in [http://twitch.tv/Moobot](http://twitch.tv/moobot), I sometimes read that chat  
+**Moobot:** Tweet at [https://twitter.com/MoobotApp](https://twitter.com/MoobotApp) or ask in [http://twitch.tv/Moobot](http://twitch.tv/moobot), I sometimes read that chat  
 <br>
 **Xanbot:** Tweet at [https://twitter.com/Xangold](https://twitter.com/xangold), [https://twitter.com/XanbotUpdates](https://twitter.com/xanbotupdates) or just ask in [http://twitch.tv/Xangold](http://twitch.tv/xangold), I usually stick around.  
 
