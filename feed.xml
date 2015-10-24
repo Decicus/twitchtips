@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="https://twitchtips.com/feed.xml" />
 <link rel="alternate" type="text/html" href="https://twitchtips.com" />
-<updated>2015-10-17T12:54:04+01:00</updated>
+<updated>2015-10-24T01:02:11+01:00</updated>
 <id>https://twitchtips.com/</id>
 <author>
   <name>Twitch Tips</name>
@@ -822,12 +822,12 @@ Xanbot is completely free to use for all users.&lt;br /&gt;
   &lt;li&gt;Several utility commands, allowing you to display information on LoL runes, masteries, the weather and much more.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You can get Xanbot by going to &lt;a href=&quot;http://twitch.tv/xangold&quot;&gt;http://twitch.tv/xangold&lt;/a&gt; and typing !join in chat. Afterwards, add Xanbot as a moderator in your channel with&lt;/p&gt;
+&lt;p&gt;You can get Xanbot by going to &lt;a href=&quot;http://twitch.tv/xangold&quot;&gt;http://twitch.tv/xangold&lt;/a&gt; and typing &lt;code&gt;!join&lt;/code&gt; in chat. Afterwards, add Xanbot as a moderator in your channel with&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;/mod Xanbot
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;A complete command list for Xanbot can be found at &lt;a href=&quot;http://twitchtvchat.com/xanbotinfo.html&quot;&gt;http://twitchtvchat.com/xanbotinfo.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;A complete command list for Xanbot can be found at &lt;a href=&quot;http://xangold.tv/help/&quot;&gt;http://xangold.tv/help/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;which-bot-to-choose&quot;&gt;4. Which Bot to Choose?&lt;/h2&gt;
 &lt;p&gt;Now that we have covered the most common bots on Twitch, what bot should you use? Does it need to be one of these 3?&lt;br /&gt;
@@ -845,9 +845,9 @@ In a lot of cases, these aren’t provided free of charge however or pose the pr
 &lt;p&gt;Using a bot can be complicated and hard to people who are new to moderation. &lt;br /&gt;
 Thankfully, there are a lot of people giving support for the bot you decide to use! In the case of the 3 bots listed above, you can find support for&lt;br /&gt;
 &lt;br /&gt;
-&lt;strong&gt;Nightbot:&lt;/strong&gt; Use the support form on the Nightbot dashboard: &lt;a href=&quot;http://nightbot.tv/support&quot;&gt;http://nightbot.tv/support&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Nightbot:&lt;/strong&gt; Tweet at &lt;a href=&quot;https://twitter.com/theNightbot&quot;&gt;https://twitter.com/theNightbot&lt;/a&gt; or use the support form on the Nightbot dashboard: &lt;a href=&quot;http://nightbot.tv/support&quot;&gt;http://nightbot.tv/support&lt;/a&gt;&lt;br /&gt;
 &lt;br /&gt;
-&lt;strong&gt;Moobot:&lt;/strong&gt; Tweet at &lt;a href=&quot;https://twitter.com/TwitchTVMoobot&quot;&gt;https://twitter.com/TwitchTVMoobot&lt;/a&gt; or ask in &lt;a href=&quot;http://twitch.tv/moobot&quot;&gt;http://twitch.tv/Moobot&lt;/a&gt;, I sometimes read that chat&lt;br /&gt;
+&lt;strong&gt;Moobot:&lt;/strong&gt; Tweet at &lt;a href=&quot;https://twitter.com/MoobotApp&quot;&gt;https://twitter.com/MoobotApp&lt;/a&gt; or ask in &lt;a href=&quot;http://twitch.tv/moobot&quot;&gt;http://twitch.tv/Moobot&lt;/a&gt;, I sometimes read that chat&lt;br /&gt;
 &lt;br /&gt;
 &lt;strong&gt;Xanbot:&lt;/strong&gt; Tweet at &lt;a href=&quot;https://twitter.com/xangold&quot;&gt;https://twitter.com/Xangold&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/xanbotupdates&quot;&gt;https://twitter.com/XanbotUpdates&lt;/a&gt; or just ask in &lt;a href=&quot;http://twitch.tv/xangold&quot;&gt;http://twitch.tv/Xangold&lt;/a&gt;, I usually stick around.  &lt;/p&gt;
 
