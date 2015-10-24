@@ -6,6 +6,11 @@ tags: [KapChat, Chat, Chat Themes, OBS, XSplit, Streaming, Overlay]
 comments: true
 draft: true
 ---
+
+## What is KapChat?
+[KapChat](https://nightdev.com/kapchat/) is a service that can be used to add a Twitch chat to your stream using OBS or XSplit. Designed to reflect Twitch chat in mind: chat badges, username colors, emotes and real-time removing of messages. With 8 built-in themes KapChat has a design theme that will fit your stream. You can even customize fine details using the Full CSS Support. KapChat also displays all of your favorite FrankerFaceZ and BetterTTV emotes so you can never miss a SourPls in your chat. 
+
+----------
 ## Features
 
 #### Twitch Protocols
@@ -27,13 +32,8 @@ draft: true
 
 ----------
 
-## What is KapChat?
-[KapChat](https://nightdev.com/kapchat/) is a service that can be used to add a Twitch chat to your stream using OBS or XSplit. Designed to reflect Twitch chat in mind: chat badges, username colors, emotes and real-time removing of messages. With 8 built-in themes KapChat has a design theme that will fit your stream. You can even customize fine details using the Full CSS Support. KapChat also displays all of your favorite FrankerFaceZ and BetterTTV emotes so you can never miss a SourPls in your chat. 
-
-----------
-
 ## Adding to Stream
-Adding KapChat couldn't be easier with streaming software. 
+Adding KapChat couldn't be easier with common streaming software. 
 
 ### OBS
 Head over to the [KapChat](https://nightdev.com/kapchat/) page and click the green install button.
