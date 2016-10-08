@@ -263,8 +263,10 @@
 	<script type="text/javascript">
 		var check_user = function (user) {
 			$(".description").fadeOut(20)
-			
-			$.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function (data) {
+
+			var client_id = 'p3tvta9sxmlbfu7its6mjogm4yc4y53';
+
+			$.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?client_id=' + client_id + '&callback=?').done(function (data) {
 				if (/.+is unavailable$/.test(data.message)) { // Ban Check
 					var message = 'It looks like you were banned from twitch, please open a ticket via the '
 					message += '<a target="_blank" href="http://help.twitch.tv/customer/portal/emails/new?interaction[name]=' + user + '">official twitch support</a> '
@@ -340,7 +342,7 @@
 
 <div class="footer-wrap">
   <footer>
-    <span>&copy; 2015 Twitch Tips. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+    <span>&copy; 2016 Twitch Tips. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
 
   </footer>
 </div><!-- /.footer-wrap -->
