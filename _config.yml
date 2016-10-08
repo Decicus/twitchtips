@@ -67,6 +67,7 @@ google_analytics: UA-50140476-1
 google_verify: oV6-uAnZIYjhC89f3QmTc1H38EiCF-vj7TiyV9UsWZs     
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:        
+twitch_client_id: 
 
 # Links to include in top navigation
 # For external links add external: true

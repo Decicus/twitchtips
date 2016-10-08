@@ -100,8 +100,10 @@ comments: false
   <script type="text/javascript">
     var check_user = function (user) {
       $(".description").fadeOut(20)
-      
-      $.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?callback=?').done(function (data) {
+
+      var client_id = '{% endraw %}{{ site.twitch_client_id }}{% raw %}';
+
+      $.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?client_id=' + client_id + '&callback=?').done(function (data) {
         if (data.status === 404) {
           return form_result('warn', 'This username does not exist!')
         }
