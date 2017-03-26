@@ -99,92 +99,105 @@ comments: false
   <div class="result"></div>
   <script type="text/javascript">
     var check_user = function (user) {
-      $(".description").fadeOut(20)
+      $(".description").fadeOut(20);
 
       var client_id = '{% endraw %}{{ site.twitch_client_id }}{% raw %}';
 
-      $.getJSON('https://api.twitch.tv/kraken/users/' + encodeURIComponent(user) + '?client_id=' + client_id + '&callback=?').done(function (data) {
-        if (data.status === 404) {
-          return form_result('warn', 'This username does not exist!')
-        }
+      $.ajax({
+        url: 'https://api.twitch.tv/kraken/users/' + encodeURIComponent(user),
+        type: 'GET',
+        dataType: 'json',
+        headers: {
+            'Accept': 'application/vnd.twitchtv.v3+json',
+            'Client-ID': client_id
+        },
+        complete: function(data) {
+          data = data.responseJSON;
 
-        if (!data.type) {
-          return form_result('warn', 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.')
-        }
-
-        if (data.type === 'staff' || data.type === 'admin' || data.type === 'global_mod') {
-          var rank
-
-          switch (data.type) {
-            case 'staff':
-              rank = 'Twitch Staff'
-              break
-            case 'admin':
-              rank = 'Admin'
-              break
-            case 'global_mod':
-              rank = 'Global Moderator'
-              break
+          if (data.status === 404) {
+            return form_result('warn', 'This username does not exist!');
           }
-          if (rank === "Twitch Staff") {
-            return form_result('staff', 'This account is a verified <img src="../images/user_check/staff_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.')
-          } 
-          else if (rank === "Admin") {
-            return form_result('admin', 'This account is a verified <img src="../images/user_check/admin_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.')
+
+          if (data.status === 422) {
+            return form_result('warn', 'This user seems to be either banned or otherwise inaccessible.');
           }
-          else if (rank === "Global Moderator") {
-            return form_result('globalmod', 'This account is a verified <img src="../images/user_check/globalmod_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.')
+
+          if (!data.type) {
+            return form_result('warn', 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.');
           }
+
+          if (data.type === 'staff' || data.type === 'admin' || data.type === 'global_mod') {
+            var rank;
+
+            switch (data.type) {
+              case 'staff':
+                rank = 'Twitch Staff';
+                break;
+              case 'admin':
+                rank = 'Admin';
+                break;
+              case 'global_mod':
+                rank = 'Global Moderator';
+                break;
+            }
+            if (rank === "Twitch Staff") {
+              return form_result('staff', 'This account is a verified <img src="../images/user_check/staff_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '?client_id=' + client_id + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.');
+            } 
+            else if (rank === "Admin") {
+              return form_result('admin', 'This account is a verified <img src="../images/user_check/admin_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '?client_id=' + client_id + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.');
+            }
+            else if (rank === "Global Moderator") {
+              return form_result('globalmod', 'This account is a verified <img src="../images/user_check/globalmod_icon.png" /> ' + rank + ' account and validated through Twitch\'s API. <br/><br/>You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '?client_id=' + client_id + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.');
+            }
+          }
+
+          var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '?client_id=' + client_id + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.';
+
+          form_result('fail', message);
         }
-
-        var message = 'This account is a standard Twitch account,<br/> if this user is informing you that they are a member of the Twitch Staff, Admin or Global Moderation (etc) team, <br/> they are likely malicious and should be avoided. </br>Please consider filing a <a href="http://help.twitch.tv/customer/portal/articles/725568-how-to-file-a-grief-report">grief report</a>. <br/><br/> You can see the direct API result <a href="https://api.twitch.tv/kraken/users/' +  encodeURIComponent(user) + '">here</a>. <br/><br/>Learn more about the badges you will see in Twitch chat <a href="http://help.twitch.tv/customer/portal/articles/725535-who-are-the-moderators-">here</a>.'
-
-        form_result('fail', message)
-      }).fail(function () {
-        form_result('warn', 'The Twitch API appears to have returned an invalid response. Twitch may be having issues at the moment.')
-      })  
-    }
+      });
+    };
 
     var form_result = function (type, message) {
+      var title = "Oh dear!";
+
       if (type === 'staff' || type === 'admin' || type === 'globalmod') {
-        var title = "All is well!"
+        title = "All is well!";
       } else if (type === 'warn') {
-        var title = "Hmm, That's not right!"
-      } else {
-        var title = "Oh dear!"
+        title = "Hmm, That's not right!";
       }
       
-      $('.result').attr('class', 'result')
-      $('.result').html('<h3>' + title + '</h3>' + message)
-      $('.result').addClass(type)
-      $(".result").fadeIn()
-    }
+      $('.result').attr('class', 'result');
+      $('.result').html('<h3>' + title + '</h3>' + message);
+      $('.result').addClass(type);
+      $(".result").fadeIn();
+    };
   
     $(document).ready(function () {
       $('#user-check').submit(function (e) {
-        e.preventDefault()
-      })
+        e.preventDefault();
+      });
       
       $('#user-check').keyup(function (e) {
         if (e.keyCode !== 13) {
-          return
+          return;
         }
         
-        e.preventDefault()
+        e.preventDefault();
         
-        var user = $('#user-check input').val()
-        window.location.hash = '#' + user
+        var user = $('#user-check input').val();
+        window.location.hash = '#' + user;
 
-        check_user(user)
-      })
+        check_user(user);
+      });
 
-      var hash = location.hash
+      var hash = location.hash;
 
       if (hash) {
-        var user = hash.substr(1)
-        $('#user-check input').val(user)
-        check_user(user)
+        var user = hash.substr(1);
+        $('#user-check input').val(user);
+        check_user(user);
       }
-    })
+    });
   </script>
 {% endraw %}
