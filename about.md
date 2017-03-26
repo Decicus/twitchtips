@@ -32,7 +32,7 @@ Below is a list of all those who have contributed to the site.
 * [@commanderroot](https://twitter.com/commanderroot)
 * [@ShannonZKiller](https://www.twitter.com/ShannonZKiller)
 * [@GavXD](http://twitter.com/GavXD)
-* [@nightwalker925](https://twitter.com/nightwalker925)
+* [@notnotnight](https://twitter.com/notnotnight)
 * [@TheRealIndie](https://twitter.com/TheRealIndie)
 * [@Izlsnizzt](http://www.twitter.com/Izlsnizzt)
 * [@CBenni_o](https://www.twitter.com/CBenni_o)
